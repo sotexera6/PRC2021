@@ -1,0 +1,1956 @@
+[
+{ "ucs" : [
+    {
+        "nome": "Processamento e Representação de Conhecimento",
+        "codigo": "UC1",
+        "docente": "D00001"
+    },
+    {
+        "nome": "Scripting no Processamento de Linguagem Natural",
+        "codigo": "UC2",
+        "docente": "D00002"
+    },
+    {
+        "nome": "Laboratório em Engenharia Informática",
+        "codigo": "UC3",
+        "docente": "D00003"
+    },
+    {
+        "nome": "Visão por Computador",
+        "codigo": "UC4",
+        "docente": "D00004"
+    }
+]
+},
+{ "docentes" : [
+    {
+        "nome": "Hayden Peters",
+        "nrDocente": "D00001"
+    },
+    {
+        "nome": "Osborn Dodson",
+        "nrDocente": "D00002"
+    },
+    {
+        "nome": "Diaz Brennan",
+        "nrDocente": "D00003"
+    },
+    {
+        "nome": "Cooley Randolph",
+        "nrDocente": "D00004"
+    }
+]
+},
+{ "alunos" : [
+    {
+        "nome": "Lindsey Bradford",
+        "idade": 32,
+        "nrAluno": "A80000",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Rowland Barton",
+        "idade": 40,
+        "nrAluno": "A80001",
+        "ucs": [
+            "UC1",
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Blackburn Gaines",
+        "idade": 30,
+        "nrAluno": "A80002",
+        "ucs": [
+            "UC1",
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Acevedo Mendez",
+        "idade": 21,
+        "nrAluno": "A80003",
+        "ucs": [
+            "UC4",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Alford Vang",
+        "idade": 32,
+        "nrAluno": "A80004",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Cora Mathews",
+        "idade": 22,
+        "nrAluno": "A80005",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Boyer Hunt",
+        "idade": 19,
+        "nrAluno": "A80006",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Medina Frost",
+        "idade": 18,
+        "nrAluno": "A80007",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Darcy Benjamin",
+        "idade": 39,
+        "nrAluno": "A80008",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Lola Howard",
+        "idade": 27,
+        "nrAluno": "A80009",
+        "ucs": [
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Louella Kim",
+        "idade": 30,
+        "nrAluno": "A80010",
+        "ucs": [
+            "UC4",
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Erika Perez",
+        "idade": 37,
+        "nrAluno": "A80011",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Magdalena Steele",
+        "idade": 33,
+        "nrAluno": "A80012",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Sears Hayden",
+        "idade": 33,
+        "nrAluno": "A80013",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Alvarado Peterson",
+        "idade": 21,
+        "nrAluno": "A80014",
+        "ucs": [
+            "UC4",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Roach Flowers",
+        "idade": 37,
+        "nrAluno": "A80015",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Cathleen Mueller",
+        "idade": 21,
+        "nrAluno": "A80016",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Dorothea Riggs",
+        "idade": 26,
+        "nrAluno": "A80017",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Heather Kelly",
+        "idade": 39,
+        "nrAluno": "A80018",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Virgie Freeman",
+        "idade": 24,
+        "nrAluno": "A80019",
+        "ucs": [
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Guy Daniel",
+        "idade": 32,
+        "nrAluno": "A80020",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Josefa Bright",
+        "idade": 34,
+        "nrAluno": "A80021",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Bass Kirkland",
+        "idade": 32,
+        "nrAluno": "A80022",
+        "ucs": [
+            "UC3",
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Kim Clayton",
+        "idade": 34,
+        "nrAluno": "A80023",
+        "ucs": [
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Tanya Mathis",
+        "idade": 34,
+        "nrAluno": "A80024",
+        "ucs": [
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Thomas Morgan",
+        "idade": 28,
+        "nrAluno": "A80025",
+        "ucs": [
+            "UC1",
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Dee Sosa",
+        "idade": 27,
+        "nrAluno": "A80026",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Lily Sellers",
+        "idade": 31,
+        "nrAluno": "A80027",
+        "ucs": [
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Mai Buckner",
+        "idade": 33,
+        "nrAluno": "A80028",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Gina Weiss",
+        "idade": 29,
+        "nrAluno": "A80029",
+        "ucs": [
+            "UC1",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Alston Vincent",
+        "idade": 39,
+        "nrAluno": "A80030",
+        "ucs": [
+            "UC3",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Branch Eaton",
+        "idade": 22,
+        "nrAluno": "A80031",
+        "ucs": [
+            "UC3",
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Edna Watts",
+        "idade": 25,
+        "nrAluno": "A80032",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Hansen Lamb",
+        "idade": 24,
+        "nrAluno": "A80033",
+        "ucs": [
+            "UC2",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Brenda Baldwin",
+        "idade": 31,
+        "nrAluno": "A80034",
+        "ucs": [
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Carlene Davis",
+        "idade": 37,
+        "nrAluno": "A80035",
+        "ucs": [
+            "UC3",
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Eddie Rich",
+        "idade": 20,
+        "nrAluno": "A80036",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Maria Pearson",
+        "idade": 19,
+        "nrAluno": "A80037",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Lawanda Long",
+        "idade": 26,
+        "nrAluno": "A80038",
+        "ucs": [
+            "UC1",
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Pace Maxwell",
+        "idade": 30,
+        "nrAluno": "A80039",
+        "ucs": [
+            "UC4",
+            "UC1",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Keri Lawrence",
+        "idade": 38,
+        "nrAluno": "A80040",
+        "ucs": [
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Janie Pope",
+        "idade": 28,
+        "nrAluno": "A80041",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Barnett Mcgee",
+        "idade": 28,
+        "nrAluno": "A80042",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Nadine Decker",
+        "idade": 33,
+        "nrAluno": "A80043",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Rita Gardner",
+        "idade": 38,
+        "nrAluno": "A80044",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Shelly Zamora",
+        "idade": 35,
+        "nrAluno": "A80045",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "England Schultz",
+        "idade": 32,
+        "nrAluno": "A80046",
+        "ucs": [
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Austin Anderson",
+        "idade": 39,
+        "nrAluno": "A80047",
+        "ucs": [
+            "UC2",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Helena Barker",
+        "idade": 19,
+        "nrAluno": "A80048",
+        "ucs": [
+            "UC4",
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Zamora Meyer",
+        "idade": 36,
+        "nrAluno": "A80049",
+        "ucs": [
+            "UC4",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Carol Larson",
+        "idade": 35,
+        "nrAluno": "A80050",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Morris Moody",
+        "idade": 33,
+        "nrAluno": "A80051",
+        "ucs": [
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Malinda Huber",
+        "idade": 31,
+        "nrAluno": "A80052",
+        "ucs": [
+            "UC3",
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Lancaster Mccray",
+        "idade": 22,
+        "nrAluno": "A80053",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Miranda Burks",
+        "idade": 21,
+        "nrAluno": "A80054",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Horn George",
+        "idade": 27,
+        "nrAluno": "A80055",
+        "ucs": [
+            "UC4",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Martina Wilder",
+        "idade": 18,
+        "nrAluno": "A80056",
+        "ucs": [
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Esperanza Contreras",
+        "idade": 18,
+        "nrAluno": "A80057",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Pearson Gonzalez",
+        "idade": 26,
+        "nrAluno": "A80058",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Helene Mccullough",
+        "idade": 28,
+        "nrAluno": "A80059",
+        "ucs": [
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Blanca Singleton",
+        "idade": 36,
+        "nrAluno": "A80060",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Mills Woodard",
+        "idade": 36,
+        "nrAluno": "A80061",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Lawrence Lott",
+        "idade": 32,
+        "nrAluno": "A80062",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Julia Rowe",
+        "idade": 36,
+        "nrAluno": "A80063",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Tasha Giles",
+        "idade": 31,
+        "nrAluno": "A80064",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Dina Page",
+        "idade": 35,
+        "nrAluno": "A80065",
+        "ucs": [
+            "UC3",
+            "UC2",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Isabella William",
+        "idade": 29,
+        "nrAluno": "A80066",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Elvira Middleton",
+        "idade": 20,
+        "nrAluno": "A80067",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Reynolds Anthony",
+        "idade": 27,
+        "nrAluno": "A80068",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Jarvis Salinas",
+        "idade": 20,
+        "nrAluno": "A80069",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Sanders Richmond",
+        "idade": 40,
+        "nrAluno": "A80070",
+        "ucs": [
+            "UC2",
+            "UC4",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Christy Holcomb",
+        "idade": 37,
+        "nrAluno": "A80071",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Herring Jenkins",
+        "idade": 29,
+        "nrAluno": "A80072",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Beulah Chang",
+        "idade": 22,
+        "nrAluno": "A80073",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Marlene Gutierrez",
+        "idade": 26,
+        "nrAluno": "A80074",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Duran Robertson",
+        "idade": 34,
+        "nrAluno": "A80075",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Lambert Chaney",
+        "idade": 23,
+        "nrAluno": "A80076",
+        "ucs": [
+            "UC4",
+            "UC2",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Stella Everett",
+        "idade": 34,
+        "nrAluno": "A80077",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Cherie Stephens",
+        "idade": 20,
+        "nrAluno": "A80078",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Nelda Boone",
+        "idade": 19,
+        "nrAluno": "A80079",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Glass Perry",
+        "idade": 29,
+        "nrAluno": "A80080",
+        "ucs": [
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Logan Cruz",
+        "idade": 26,
+        "nrAluno": "A80081",
+        "ucs": [
+            "UC4",
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Wells Richards",
+        "idade": 29,
+        "nrAluno": "A80082",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Frederick Guy",
+        "idade": 39,
+        "nrAluno": "A80083",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Cecile Thompson",
+        "idade": 38,
+        "nrAluno": "A80084",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Mayer Miles",
+        "idade": 28,
+        "nrAluno": "A80085",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Sheila Madden",
+        "idade": 36,
+        "nrAluno": "A80086",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Simon Garrett",
+        "idade": 30,
+        "nrAluno": "A80087",
+        "ucs": [
+            "UC1",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Leach Elliott",
+        "idade": 19,
+        "nrAluno": "A80088",
+        "ucs": [
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Wise Raymond",
+        "idade": 21,
+        "nrAluno": "A80089",
+        "ucs": [
+            "UC1",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Barbra Parker",
+        "idade": 20,
+        "nrAluno": "A80090",
+        "ucs": [
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Kristie Hutchinson",
+        "idade": 28,
+        "nrAluno": "A80091",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Deidre Delacruz",
+        "idade": 18,
+        "nrAluno": "A80092",
+        "ucs": [
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Manning Yates",
+        "idade": 40,
+        "nrAluno": "A80093",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Debbie Waller",
+        "idade": 30,
+        "nrAluno": "A80094",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Wilkerson Spence",
+        "idade": 38,
+        "nrAluno": "A80095",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Juliette Burris",
+        "idade": 24,
+        "nrAluno": "A80096",
+        "ucs": [
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Maxwell Carpenter",
+        "idade": 22,
+        "nrAluno": "A80097",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Wade Foster",
+        "idade": 20,
+        "nrAluno": "A80098",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Myrna Durham",
+        "idade": 35,
+        "nrAluno": "A80099",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Mari Whitfield",
+        "idade": 30,
+        "nrAluno": "A80100",
+        "ucs": [
+            "UC2",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Lois Poole",
+        "idade": 19,
+        "nrAluno": "A80101",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Jill Fletcher",
+        "idade": 35,
+        "nrAluno": "A80102",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Herring Harper",
+        "idade": 26,
+        "nrAluno": "A80103",
+        "ucs": [
+            "UC1",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Claudia Hansen",
+        "idade": 23,
+        "nrAluno": "A80104",
+        "ucs": [
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Eloise Hood",
+        "idade": 39,
+        "nrAluno": "A80105",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Randolph Medina",
+        "idade": 26,
+        "nrAluno": "A80106",
+        "ucs": [
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Dena Walton",
+        "idade": 36,
+        "nrAluno": "A80107",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Juarez Sampson",
+        "idade": 40,
+        "nrAluno": "A80108",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Alston Stephens",
+        "idade": 27,
+        "nrAluno": "A80109",
+        "ucs": [
+            "UC1",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Lowe Mcintyre",
+        "idade": 21,
+        "nrAluno": "A80110",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Pruitt Noble",
+        "idade": 25,
+        "nrAluno": "A80111",
+        "ucs": [
+            "UC4",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Josie Burris",
+        "idade": 36,
+        "nrAluno": "A80112",
+        "ucs": [
+            "UC4",
+            "UC3",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Hays Barlow",
+        "idade": 30,
+        "nrAluno": "A80113",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Welch Boyd",
+        "idade": 21,
+        "nrAluno": "A80114",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Tameka Norris",
+        "idade": 35,
+        "nrAluno": "A80115",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Christensen Lott",
+        "idade": 32,
+        "nrAluno": "A80116",
+        "ucs": [
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Eliza Pennington",
+        "idade": 35,
+        "nrAluno": "A80117",
+        "ucs": [
+            "UC4",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Conway Craig",
+        "idade": 26,
+        "nrAluno": "A80118",
+        "ucs": [
+            "UC4",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Juliet Mccormick",
+        "idade": 39,
+        "nrAluno": "A80119",
+        "ucs": [
+            "UC3",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Evangelina Berger",
+        "idade": 29,
+        "nrAluno": "A80120",
+        "ucs": [
+            "UC4",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Sherman Jenkins",
+        "idade": 28,
+        "nrAluno": "A80121",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Huff Valentine",
+        "idade": 38,
+        "nrAluno": "A80122",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Holman Ray",
+        "idade": 25,
+        "nrAluno": "A80123",
+        "ucs": [
+            "UC3",
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Porter Holmes",
+        "idade": 22,
+        "nrAluno": "A80124",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Mercedes Hendricks",
+        "idade": 23,
+        "nrAluno": "A80125",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Virgie Hines",
+        "idade": 37,
+        "nrAluno": "A80126",
+        "ucs": [
+            "UC1",
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Shepherd Thomas",
+        "idade": 34,
+        "nrAluno": "A80127",
+        "ucs": [
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Kennedy Perkins",
+        "idade": 39,
+        "nrAluno": "A80128",
+        "ucs": [
+            "UC1",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Douglas Goodman",
+        "idade": 29,
+        "nrAluno": "A80129",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Suarez Jimenez",
+        "idade": 18,
+        "nrAluno": "A80130",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Wells Dillon",
+        "idade": 21,
+        "nrAluno": "A80131",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Rachael Andrews",
+        "idade": 25,
+        "nrAluno": "A80132",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Tina Jennings",
+        "idade": 30,
+        "nrAluno": "A80133",
+        "ucs": [
+            "UC2",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Adams Hull",
+        "idade": 26,
+        "nrAluno": "A80134",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Wiggins Harrington",
+        "idade": 38,
+        "nrAluno": "A80135",
+        "ucs": [
+            "UC1",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Griffin Collier",
+        "idade": 26,
+        "nrAluno": "A80136",
+        "ucs": [
+            "UC1",
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Galloway Clayton",
+        "idade": 31,
+        "nrAluno": "A80137",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Willis Cross",
+        "idade": 24,
+        "nrAluno": "A80138",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Marietta Wall",
+        "idade": 39,
+        "nrAluno": "A80139",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Jacqueline Townsend",
+        "idade": 24,
+        "nrAluno": "A80140",
+        "ucs": [
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Marian Whitney",
+        "idade": 32,
+        "nrAluno": "A80141",
+        "ucs": [
+            "UC1",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Glenna Bond",
+        "idade": 23,
+        "nrAluno": "A80142",
+        "ucs": [
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Kelley Fulton",
+        "idade": 24,
+        "nrAluno": "A80143",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Lynne Avila",
+        "idade": 21,
+        "nrAluno": "A80144",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Serena Horn",
+        "idade": 32,
+        "nrAluno": "A80145",
+        "ucs": [
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Marisa Conley",
+        "idade": 37,
+        "nrAluno": "A80146",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Marylou Nash",
+        "idade": 40,
+        "nrAluno": "A80147",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Velazquez Lynn",
+        "idade": 18,
+        "nrAluno": "A80148",
+        "ucs": [
+            "UC2",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Aguirre Burgess",
+        "idade": 35,
+        "nrAluno": "A80149",
+        "ucs": [
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Lamb Nguyen",
+        "idade": 26,
+        "nrAluno": "A80150",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Tamara Griffin",
+        "idade": 21,
+        "nrAluno": "A80151",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Priscilla Stuart",
+        "idade": 25,
+        "nrAluno": "A80152",
+        "ucs": [
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Benson House",
+        "idade": 27,
+        "nrAluno": "A80153",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Roberta Palmer",
+        "idade": 26,
+        "nrAluno": "A80154",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Villarreal Mcknight",
+        "idade": 21,
+        "nrAluno": "A80155",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Shawna Gentry",
+        "idade": 35,
+        "nrAluno": "A80156",
+        "ucs": [
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Leon Osborn",
+        "idade": 38,
+        "nrAluno": "A80157",
+        "ucs": [
+            "UC1",
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Arlene Ballard",
+        "idade": 26,
+        "nrAluno": "A80158",
+        "ucs": [
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Blanche Rodriguez",
+        "idade": 21,
+        "nrAluno": "A80159",
+        "ucs": [
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Madeline Morris",
+        "idade": 26,
+        "nrAluno": "A80160",
+        "ucs": [
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Celeste Oneal",
+        "idade": 19,
+        "nrAluno": "A80161",
+        "ucs": [
+            "UC2",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Horton Waller",
+        "idade": 39,
+        "nrAluno": "A80162",
+        "ucs": [
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Florence Noel",
+        "idade": 37,
+        "nrAluno": "A80163",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Todd Hartman",
+        "idade": 32,
+        "nrAluno": "A80164",
+        "ucs": [
+            "UC4",
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Cardenas Sanchez",
+        "idade": 31,
+        "nrAluno": "A80165",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Darcy Duran",
+        "idade": 22,
+        "nrAluno": "A80166",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Horne Delgado",
+        "idade": 20,
+        "nrAluno": "A80167",
+        "ucs": [
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Woods Jacobson",
+        "idade": 22,
+        "nrAluno": "A80168",
+        "ucs": [
+            "UC4",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Forbes Douglas",
+        "idade": 32,
+        "nrAluno": "A80169",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Farrell Lopez",
+        "idade": 36,
+        "nrAluno": "A80170",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Wheeler Colon",
+        "idade": 20,
+        "nrAluno": "A80171",
+        "ucs": [
+            "UC4",
+            "UC1",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Lea Montgomery",
+        "idade": 40,
+        "nrAluno": "A80172",
+        "ucs": [
+            "UC1",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Jeanie Green",
+        "idade": 25,
+        "nrAluno": "A80173",
+        "ucs": [
+            "UC1",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Mullins Howe",
+        "idade": 26,
+        "nrAluno": "A80174",
+        "ucs": [
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Elma Clements",
+        "idade": 19,
+        "nrAluno": "A80175",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Karen Tyler",
+        "idade": 27,
+        "nrAluno": "A80176",
+        "ucs": [
+            "UC3",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Faulkner Nieves",
+        "idade": 25,
+        "nrAluno": "A80177",
+        "ucs": [
+            "UC4",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Lester Cooke",
+        "idade": 32,
+        "nrAluno": "A80178",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Gutierrez Keith",
+        "idade": 24,
+        "nrAluno": "A80179",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Catherine Barber",
+        "idade": 32,
+        "nrAluno": "A80180",
+        "ucs": [
+            "UC4",
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Aisha Tucker",
+        "idade": 38,
+        "nrAluno": "A80181",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Conrad Harrison",
+        "idade": 23,
+        "nrAluno": "A80182",
+        "ucs": [
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Phoebe Bender",
+        "idade": 20,
+        "nrAluno": "A80183",
+        "ucs": [
+            "UC4",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Stacy Lara",
+        "idade": 18,
+        "nrAluno": "A80184",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Perez Charles",
+        "idade": 34,
+        "nrAluno": "A80185",
+        "ucs": [
+            "UC1",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Gay Graves",
+        "idade": 26,
+        "nrAluno": "A80186",
+        "ucs": [
+            "UC4",
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Dianna Albert",
+        "idade": 28,
+        "nrAluno": "A80187",
+        "ucs": [
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Pamela Phillips",
+        "idade": 36,
+        "nrAluno": "A80188",
+        "ucs": [
+            "UC1",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Rhonda Burks",
+        "idade": 37,
+        "nrAluno": "A80189",
+        "ucs": [
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Manning Cash",
+        "idade": 21,
+        "nrAluno": "A80190",
+        "ucs": [
+            "UC4",
+            "UC3",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Janine Michael",
+        "idade": 36,
+        "nrAluno": "A80191",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Nichole Jacobs",
+        "idade": 25,
+        "nrAluno": "A80192",
+        "ucs": [
+            "UC2",
+            "UC4",
+            "UC1"
+        ]
+    },
+    {
+        "nome": "Cherry Orr",
+        "idade": 36,
+        "nrAluno": "A80193",
+        "ucs": [
+            "UC2",
+            "UC3"
+        ]
+    },
+    {
+        "nome": "Joni Kerr",
+        "idade": 20,
+        "nrAluno": "A80194",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Mccormick Carey",
+        "idade": 34,
+        "nrAluno": "A80195",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Carrie Boyle",
+        "idade": 29,
+        "nrAluno": "A80196",
+        "ucs": [
+            "UC1",
+            "UC2",
+            "UC3",
+            "UC4"
+        ]
+    },
+    {
+        "nome": "Atkinson Odonnell",
+        "idade": 28,
+        "nrAluno": "A80197",
+        "ucs": [
+            "UC1",
+            "UC4",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Hartman Johnson",
+        "idade": 27,
+        "nrAluno": "A80198",
+        "ucs": [
+            "UC1",
+            "UC2"
+        ]
+    },
+    {
+        "nome": "Wise Thornton",
+        "idade": 27,
+        "nrAluno": "A80199",
+        "ucs": [
+            "UC4",
+            "UC2",
+            "UC3"
+        ]
+    }
+    ]
+}
+]

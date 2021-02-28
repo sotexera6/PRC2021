@@ -1,0 +1,71 @@
+
+ALUNOS - primeiros 100:
+[
+  {
+    'repeat(100)': {
+      _id: '{{objectId()}}',
+      nome: '{{firstName()}} {{surname()}}',
+      idade: '{{integer(18, 40)}}',
+      nrAluno(tags, p, index){
+        if (index < 10) return `A8000${index}`;
+        if (index < 100) return `A800${index}`;
+    	},
+      ucs(tags){
+        ucs = [];
+        nr_ucs = tags.integer(1,4);
+        if(nr_ucs === 4){
+          ucs.push('UC1');
+          ucs.push('UC2');
+          ucs.push('UC3');
+          ucs.push('UC4');
+        }
+        while(ucs.length < nr_ucs){
+          choose_uc = tags.integer(1,4);
+          new_uc = `UC${choose_uc}`;
+          if(!ucs.includes(new_uc)) ucs.push(new_uc);
+        }
+        return ucs;
+      }
+    }
+  }
+]
+
+ALUNOS - segundos 100:
+[
+  {
+    'repeat(100)': {
+      nome: '{{firstName()}} {{surname()}}',
+      idade: '{{integer(18, 40)}}',
+      nrAluno(tags, p, index){
+        if (index < 10) return `A8010${index}`;
+        if (index < 100) return `A801${index}`;
+    	},
+      ucs(tags){
+        ucs = [];
+        nr_ucs = tags.integer(1,4);
+        if(nr_ucs === 4){
+          ucs.push('UC1');
+          ucs.push('UC2');
+          ucs.push('UC3');
+          ucs.push('UC4');
+        }
+        while(ucs.length < nr_ucs){
+          choose_uc = tags.integer(1,4);
+          new_uc = `UC${choose_uc}`;
+          if(!ucs.includes(new_uc)) ucs.push(new_uc);
+        }
+        return ucs;
+      }
+    }
+  }
+]
+
+DOCENTES:
+[
+  {
+    'repeat(4)': {
+      nome: '{{firstName()}} {{surname()}}',
+      nrDocente: 'D0000{{index(1)}}'
+    }
+  }
+]
