@@ -1,0 +1,240 @@
+:ensina rdf:type owl:ObjectProperty ;
+        owl:inverseOf :ensinadaPor ;
+        rdfs:domain :Docente ;
+        rdfs:range :UnidadeCurricular .
+:frequenta rdf:type owl:ObjectProperty ;
+           owl:inverseOf :frequentadaPor ;
+           rdfs:domain :Aluno ;
+           rdfs:range :UnidadeCurricular .
+:alunoDe rdf:type owl:ObjectProperty ;
+          owl:inverseOf :professorDe .
+:ensinadaPor rdf:type owl:ObjectProperty .
+:frequentadaPor rdf:type owl:ObjectProperty .
+:professorDe rdf:type owl:ObjectProperty ;
+              owl:propertyChainAxiom ( :ensina :frequentadaPor ) .
+
+:nome rdf:type owl:DatatypeProperty .
+:idade rdf:type owl:DatatypeProperty .
+
+:Aluno rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :frequenta ;
+                         owl:someValuesFrom :UnidadeCurricular
+                       ] .
+:Docente rdf:type owl:Class .
+:UnidadeCurricular rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :ensinadaPor ;
+                             owl:someValuesFrom :Docente
+                           ] .
+
+:UC1 rdf:type owl:NamedIndividual , :UnidadeCurricular ; :nome "Processamento e Representação de Conhecimento" ; :ensinadaPor :D00001 .
+:UC2 rdf:type owl:NamedIndividual , :UnidadeCurricular ; :nome "Scripting no Processamento de Linguagem Natural" ; :ensinadaPor :D00002 .
+:UC3 rdf:type owl:NamedIndividual , :UnidadeCurricular ; :nome "Laboratório em Engenharia Informática" ; :ensinadaPor :D00003 .
+:UC4 rdf:type owl:NamedIndividual , :UnidadeCurricular ; :nome "Visão por Computador" ; :ensinadaPor :D00004 .
+
+:D00001 rdf:type owl:NamedIndividual , :Docente ; :nome "Hayden Peters" .
+:D00002 rdf:type owl:NamedIndividual , :Docente ; :nome "Osborn Dodson" .
+:D00003 rdf:type owl:NamedIndividual , :Docente ; :nome "Diaz Brennan" .
+:D00004 rdf:type owl:NamedIndividual , :Docente ; :nome "Cooley Randolph" .
+
+:A80000 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lindsey Bradford" ; :idade "32" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80001 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rowland Barton" ; :idade "40" ; :frequenta :UC1 :UC4 :UC2 .
+:A80002 rdf:type owl:NamedIndividual , :Aluno ; :nome "Blackburn Gaines" ; :idade "30" ; :frequenta :UC1 :UC3 :UC2 .
+:A80003 rdf:type owl:NamedIndividual , :Aluno ; :nome "Acevedo Mendez" ; :idade "21" ; :frequenta :UC4 :UC1 .
+:A80004 rdf:type owl:NamedIndividual , :Aluno ; :nome "Alford Vang" ; :idade "32" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80005 rdf:type owl:NamedIndividual , :Aluno ; :nome "Cora Mathews" ; :idade "22" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80006 rdf:type owl:NamedIndividual , :Aluno ; :nome "Boyer Hunt" ; :idade "19" ; :frequenta :UC1 .
+:A80007 rdf:type owl:NamedIndividual , :Aluno ; :nome "Medina Frost" ; :idade "18" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80008 rdf:type owl:NamedIndividual , :Aluno ; :nome "Darcy Benjamin" ; :idade "39" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80009 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lola Howard" ; :idade "27" ; :frequenta :UC1 :UC3 .
+:A80010 rdf:type owl:NamedIndividual , :Aluno ; :nome "Louella Kim" ; :idade "30" ; :frequenta :UC4 :UC2 :UC3 .
+:A80011 rdf:type owl:NamedIndividual , :Aluno ; :nome "Erika Perez" ; :idade "37" ; :frequenta :UC2 .
+:A80012 rdf:type owl:NamedIndividual , :Aluno ; :nome "Magdalena Steele" ; :idade "33" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80013 rdf:type owl:NamedIndividual , :Aluno ; :nome "Sears Hayden" ; :idade "33" ; :frequenta :UC3 .
+:A80014 rdf:type owl:NamedIndividual , :Aluno ; :nome "Alvarado Peterson" ; :idade "21" ; :frequenta :UC4 :UC1 .
+:A80015 rdf:type owl:NamedIndividual , :Aluno ; :nome "Roach Flowers" ; :idade "37" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80016 rdf:type owl:NamedIndividual , :Aluno ; :nome "Cathleen Mueller" ; :idade "21" ; :frequenta :UC2 .
+:A80017 rdf:type owl:NamedIndividual , :Aluno ; :nome "Dorothea Riggs" ; :idade "26" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80018 rdf:type owl:NamedIndividual , :Aluno ; :nome "Heather Kelly" ; :idade "39" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80019 rdf:type owl:NamedIndividual , :Aluno ; :nome "Virgie Freeman" ; :idade "24" ; :frequenta :UC3 :UC2 .
+:A80020 rdf:type owl:NamedIndividual , :Aluno ; :nome "Guy Daniel" ; :idade "32" ; :frequenta :UC1 .
+:A80021 rdf:type owl:NamedIndividual , :Aluno ; :nome "Josefa Bright" ; :idade "34" ; :frequenta :UC4 .
+:A80022 rdf:type owl:NamedIndividual , :Aluno ; :nome "Bass Kirkland" ; :idade "32" ; :frequenta :UC3 :UC4 :UC2 .
+:A80023 rdf:type owl:NamedIndividual , :Aluno ; :nome "Kim Clayton" ; :idade "34" ; :frequenta :UC2 :UC4 .
+:A80024 rdf:type owl:NamedIndividual , :Aluno ; :nome "Tanya Mathis" ; :idade "34" ; :frequenta :UC2 :UC3 .
+:A80025 rdf:type owl:NamedIndividual , :Aluno ; :nome "Thomas Morgan" ; :idade "28" ; :frequenta :UC1 :UC4 :UC3 .
+:A80026 rdf:type owl:NamedIndividual , :Aluno ; :nome "Dee Sosa" ; :idade "27" ; :frequenta :UC1 :UC2 :UC4 .
+:A80027 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lily Sellers" ; :idade "31" ; :frequenta :UC3 :UC4 .
+:A80028 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mai Buckner" ; :idade "33" ; :frequenta :UC4 .
+:A80029 rdf:type owl:NamedIndividual , :Aluno ; :nome "Gina Weiss" ; :idade "29" ; :frequenta :UC1 :UC2 .
+:A80030 rdf:type owl:NamedIndividual , :Aluno ; :nome "Alston Vincent" ; :idade "39" ; :frequenta :UC3 :UC1 .
+:A80031 rdf:type owl:NamedIndividual , :Aluno ; :nome "Branch Eaton" ; :idade "22" ; :frequenta :UC3 :UC4 :UC2 .
+:A80032 rdf:type owl:NamedIndividual , :Aluno ; :nome "Edna Watts" ; :idade "25" ; :frequenta :UC4 .
+:A80033 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hansen Lamb" ; :idade "24" ; :frequenta :UC2 :UC1 :UC3 .
+:A80034 rdf:type owl:NamedIndividual , :Aluno ; :nome "Brenda Baldwin" ; :idade "31" ; :frequenta :UC2 :UC4 .
+:A80035 rdf:type owl:NamedIndividual , :Aluno ; :nome "Carlene Davis" ; :idade "37" ; :frequenta :UC3 :UC2 :UC4 .
+:A80036 rdf:type owl:NamedIndividual , :Aluno ; :nome "Eddie Rich" ; :idade "20" ; :frequenta :UC1 .
+:A80037 rdf:type owl:NamedIndividual , :Aluno ; :nome "Maria Pearson" ; :idade "19" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80038 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lawanda Long" ; :idade "26" ; :frequenta :UC1 :UC3 :UC2 .
+:A80039 rdf:type owl:NamedIndividual , :Aluno ; :nome "Pace Maxwell" ; :idade "30" ; :frequenta :UC4 :UC1 :UC2 .
+:A80040 rdf:type owl:NamedIndividual , :Aluno ; :nome "Keri Lawrence" ; :idade "38" ; :frequenta :UC4 :UC3 .
+:A80041 rdf:type owl:NamedIndividual , :Aluno ; :nome "Janie Pope" ; :idade "28" ; :frequenta :UC4 .
+:A80042 rdf:type owl:NamedIndividual , :Aluno ; :nome "Barnett Mcgee" ; :idade "28" ; :frequenta :UC4 .
+:A80043 rdf:type owl:NamedIndividual , :Aluno ; :nome "Nadine Decker" ; :idade "33" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80044 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rita Gardner" ; :idade "38" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80045 rdf:type owl:NamedIndividual , :Aluno ; :nome "Shelly Zamora" ; :idade "35" ; :frequenta :UC2 .
+:A80046 rdf:type owl:NamedIndividual , :Aluno ; :nome "England Schultz" ; :idade "32" ; :frequenta :UC4 :UC3 .
+:A80047 rdf:type owl:NamedIndividual , :Aluno ; :nome "Austin Anderson" ; :idade "39" ; :frequenta :UC2 :UC1 :UC3 .
+:A80048 rdf:type owl:NamedIndividual , :Aluno ; :nome "Helena Barker" ; :idade "19" ; :frequenta :UC4 :UC3 :UC2 .
+:A80049 rdf:type owl:NamedIndividual , :Aluno ; :nome "Zamora Meyer" ; :idade "36" ; :frequenta :UC4 :UC1 .
+:A80050 rdf:type owl:NamedIndividual , :Aluno ; :nome "Carol Larson" ; :idade "35" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80051 rdf:type owl:NamedIndividual , :Aluno ; :nome "Morris Moody" ; :idade "33" ; :frequenta :UC3 :UC2 .
+:A80052 rdf:type owl:NamedIndividual , :Aluno ; :nome "Malinda Huber" ; :idade "31" ; :frequenta :UC3 :UC2 :UC4 .
+:A80053 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lancaster Mccray" ; :idade "22" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80054 rdf:type owl:NamedIndividual , :Aluno ; :nome "Miranda Burks" ; :idade "21" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80055 rdf:type owl:NamedIndividual , :Aluno ; :nome "Horn George" ; :idade "27" ; :frequenta :UC4 :UC1 :UC3 .
+:A80056 rdf:type owl:NamedIndividual , :Aluno ; :nome "Martina Wilder" ; :idade "18" ; :frequenta :UC3 :UC4 .
+:A80057 rdf:type owl:NamedIndividual , :Aluno ; :nome "Esperanza Contreras" ; :idade "18" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80058 rdf:type owl:NamedIndividual , :Aluno ; :nome "Pearson Gonzalez" ; :idade "26" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80059 rdf:type owl:NamedIndividual , :Aluno ; :nome "Helene Mccullough" ; :idade "28" ; :frequenta :UC3 :UC4 .
+:A80060 rdf:type owl:NamedIndividual , :Aluno ; :nome "Blanca Singleton" ; :idade "36" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80061 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mills Woodard" ; :idade "36" ; :frequenta :UC1 .
+:A80062 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lawrence Lott" ; :idade "32" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80063 rdf:type owl:NamedIndividual , :Aluno ; :nome "Julia Rowe" ; :idade "36" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80064 rdf:type owl:NamedIndividual , :Aluno ; :nome "Tasha Giles" ; :idade "31" ; :frequenta :UC3 .
+:A80065 rdf:type owl:NamedIndividual , :Aluno ; :nome "Dina Page" ; :idade "35" ; :frequenta :UC3 :UC2 :UC1 .
+:A80066 rdf:type owl:NamedIndividual , :Aluno ; :nome "Isabella William" ; :idade "29" ; :frequenta :UC3 .
+:A80067 rdf:type owl:NamedIndividual , :Aluno ; :nome "Elvira Middleton" ; :idade "20" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80068 rdf:type owl:NamedIndividual , :Aluno ; :nome "Reynolds Anthony" ; :idade "27" ; :frequenta :UC1 :UC2 :UC3 .
+:A80069 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jarvis Salinas" ; :idade "20" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80070 rdf:type owl:NamedIndividual , :Aluno ; :nome "Sanders Richmond" ; :idade "40" ; :frequenta :UC2 :UC4 :UC1 .
+:A80071 rdf:type owl:NamedIndividual , :Aluno ; :nome "Christy Holcomb" ; :idade "37" ; :frequenta :UC2 .
+:A80072 rdf:type owl:NamedIndividual , :Aluno ; :nome "Herring Jenkins" ; :idade "29" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80073 rdf:type owl:NamedIndividual , :Aluno ; :nome "Beulah Chang" ; :idade "22" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80074 rdf:type owl:NamedIndividual , :Aluno ; :nome "Marlene Gutierrez" ; :idade "26" ; :frequenta :UC1 .
+:A80075 rdf:type owl:NamedIndividual , :Aluno ; :nome "Duran Robertson" ; :idade "34" ; :frequenta :UC3 .
+:A80076 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lambert Chaney" ; :idade "23" ; :frequenta :UC4 :UC2 :UC1 .
+:A80077 rdf:type owl:NamedIndividual , :Aluno ; :nome "Stella Everett" ; :idade "34" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80078 rdf:type owl:NamedIndividual , :Aluno ; :nome "Cherie Stephens" ; :idade "20" ; :frequenta :UC4 .
+:A80079 rdf:type owl:NamedIndividual , :Aluno ; :nome "Nelda Boone" ; :idade "19" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80080 rdf:type owl:NamedIndividual , :Aluno ; :nome "Glass Perry" ; :idade "29" ; :frequenta :UC2 :UC3 .
+:A80081 rdf:type owl:NamedIndividual , :Aluno ; :nome "Logan Cruz" ; :idade "26" ; :frequenta :UC4 :UC2 :UC3 .
+:A80082 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wells Richards" ; :idade "29" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80083 rdf:type owl:NamedIndividual , :Aluno ; :nome "Frederick Guy" ; :idade "39" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80084 rdf:type owl:NamedIndividual , :Aluno ; :nome "Cecile Thompson" ; :idade "38" ; :frequenta :UC4 .
+:A80085 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mayer Miles" ; :idade "28" ; :frequenta :UC2 .
+:A80086 rdf:type owl:NamedIndividual , :Aluno ; :nome "Sheila Madden" ; :idade "36" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80087 rdf:type owl:NamedIndividual , :Aluno ; :nome "Simon Garrett" ; :idade "30" ; :frequenta :UC1 :UC2 .
+:A80088 rdf:type owl:NamedIndividual , :Aluno ; :nome "Leach Elliott" ; :idade "19" ; :frequenta :UC1 :UC3 .
+:A80089 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wise Raymond" ; :idade "21" ; :frequenta :UC1 :UC4 .
+:A80090 rdf:type owl:NamedIndividual , :Aluno ; :nome "Barbra Parker" ; :idade "20" ; :frequenta :UC4 :UC3 .
+:A80091 rdf:type owl:NamedIndividual , :Aluno ; :nome "Kristie Hutchinson" ; :idade "28" ; :frequenta :UC3 .
+:A80092 rdf:type owl:NamedIndividual , :Aluno ; :nome "Deidre Delacruz" ; :idade "18" ; :frequenta :UC4 :UC2 .
+:A80093 rdf:type owl:NamedIndividual , :Aluno ; :nome "Manning Yates" ; :idade "40" ; :frequenta :UC2 .
+:A80094 rdf:type owl:NamedIndividual , :Aluno ; :nome "Debbie Waller" ; :idade "30" ; :frequenta :UC1 .
+:A80095 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wilkerson Spence" ; :idade "38" ; :frequenta :UC4 .
+:A80096 rdf:type owl:NamedIndividual , :Aluno ; :nome "Juliette Burris" ; :idade "24" ; :frequenta :UC1 :UC3 .
+:A80097 rdf:type owl:NamedIndividual , :Aluno ; :nome "Maxwell Carpenter" ; :idade "22" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80098 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wade Foster" ; :idade "20" ; :frequenta :UC3 .
+:A80099 rdf:type owl:NamedIndividual , :Aluno ; :nome "Myrna Durham" ; :idade "35" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80100 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mari Whitfield" ; :idade "30" ; :frequenta :UC2 :UC1 .
+:A80101 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lois Poole" ; :idade "19" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80102 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jill Fletcher" ; :idade "35" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80103 rdf:type owl:NamedIndividual , :Aluno ; :nome "Herring Harper" ; :idade "26" ; :frequenta :UC1 :UC4 .
+:A80104 rdf:type owl:NamedIndividual , :Aluno ; :nome "Claudia Hansen" ; :idade "23" ; :frequenta :UC3 :UC4 .
+:A80105 rdf:type owl:NamedIndividual , :Aluno ; :nome "Eloise Hood" ; :idade "39" ; :frequenta :UC1 .
+:A80106 rdf:type owl:NamedIndividual , :Aluno ; :nome "Randolph Medina" ; :idade "26" ; :frequenta :UC2 :UC4 .
+:A80107 rdf:type owl:NamedIndividual , :Aluno ; :nome "Dena Walton" ; :idade "36" ; :frequenta :UC2 .
+:A80108 rdf:type owl:NamedIndividual , :Aluno ; :nome "Juarez Sampson" ; :idade "40" ; :frequenta :UC1 .
+:A80109 rdf:type owl:NamedIndividual , :Aluno ; :nome "Alston Stephens" ; :idade "27" ; :frequenta :UC1 :UC3 :UC4 .
+:A80110 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lowe Mcintyre" ; :idade "21" ; :frequenta :UC3 .
+:A80111 rdf:type owl:NamedIndividual , :Aluno ; :nome "Pruitt Noble" ; :idade "25" ; :frequenta :UC4 :UC1 :UC3 .
+:A80112 rdf:type owl:NamedIndividual , :Aluno ; :nome "Josie Burris" ; :idade "36" ; :frequenta :UC4 :UC3 :UC1 .
+:A80113 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hays Barlow" ; :idade "30" ; :frequenta :UC4 .
+:A80114 rdf:type owl:NamedIndividual , :Aluno ; :nome "Welch Boyd" ; :idade "21" ; :frequenta :UC2 .
+:A80115 rdf:type owl:NamedIndividual , :Aluno ; :nome "Tameka Norris" ; :idade "35" ; :frequenta :UC3 .
+:A80116 rdf:type owl:NamedIndividual , :Aluno ; :nome "Christensen Lott" ; :idade "32" ; :frequenta :UC4 :UC2 .
+:A80117 rdf:type owl:NamedIndividual , :Aluno ; :nome "Eliza Pennington" ; :idade "35" ; :frequenta :UC4 :UC1 :UC3 .
+:A80118 rdf:type owl:NamedIndividual , :Aluno ; :nome "Conway Craig" ; :idade "26" ; :frequenta :UC4 :UC1 :UC3 .
+:A80119 rdf:type owl:NamedIndividual , :Aluno ; :nome "Juliet Mccormick" ; :idade "39" ; :frequenta :UC3 :UC1 .
+:A80120 rdf:type owl:NamedIndividual , :Aluno ; :nome "Evangelina Berger" ; :idade "29" ; :frequenta :UC4 :UC1 .
+:A80121 rdf:type owl:NamedIndividual , :Aluno ; :nome "Sherman Jenkins" ; :idade "28" ; :frequenta :UC3 .
+:A80122 rdf:type owl:NamedIndividual , :Aluno ; :nome "Huff Valentine" ; :idade "38" ; :frequenta :UC1 :UC2 :UC4 .
+:A80123 rdf:type owl:NamedIndividual , :Aluno ; :nome "Holman Ray" ; :idade "25" ; :frequenta :UC3 :UC4 :UC2 .
+:A80124 rdf:type owl:NamedIndividual , :Aluno ; :nome "Porter Holmes" ; :idade "22" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80125 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mercedes Hendricks" ; :idade "23" ; :frequenta :UC1 :UC2 :UC4 .
+:A80126 rdf:type owl:NamedIndividual , :Aluno ; :nome "Virgie Hines" ; :idade "37" ; :frequenta :UC1 :UC4 :UC3 .
+:A80127 rdf:type owl:NamedIndividual , :Aluno ; :nome "Shepherd Thomas" ; :idade "34" ; :frequenta :UC3 :UC2 .
+:A80128 rdf:type owl:NamedIndividual , :Aluno ; :nome "Kennedy Perkins" ; :idade "39" ; :frequenta :UC1 :UC3 :UC4 .
+:A80129 rdf:type owl:NamedIndividual , :Aluno ; :nome "Douglas Goodman" ; :idade "29" ; :frequenta :UC1 .
+:A80130 rdf:type owl:NamedIndividual , :Aluno ; :nome "Suarez Jimenez" ; :idade "18" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80131 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wells Dillon" ; :idade "21" ; :frequenta :UC3 .
+:A80132 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rachael Andrews" ; :idade "25" ; :frequenta :UC1 .
+:A80133 rdf:type owl:NamedIndividual , :Aluno ; :nome "Tina Jennings" ; :idade "30" ; :frequenta :UC2 :UC1 .
+:A80134 rdf:type owl:NamedIndividual , :Aluno ; :nome "Adams Hull" ; :idade "26" ; :frequenta :UC1 :UC2 :UC4 .
+:A80135 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wiggins Harrington" ; :idade "38" ; :frequenta :UC1 :UC2 .
+:A80136 rdf:type owl:NamedIndividual , :Aluno ; :nome "Griffin Collier" ; :idade "26" ; :frequenta :UC1 :UC3 :UC2 .
+:A80137 rdf:type owl:NamedIndividual , :Aluno ; :nome "Galloway Clayton" ; :idade "31" ; :frequenta :UC3 .
+:A80138 rdf:type owl:NamedIndividual , :Aluno ; :nome "Willis Cross" ; :idade "24" ; :frequenta :UC3 .
+:A80139 rdf:type owl:NamedIndividual , :Aluno ; :nome "Marietta Wall" ; :idade "39" ; :frequenta :UC3 .
+:A80140 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jacqueline Townsend" ; :idade "24" ; :frequenta :UC1 .
+:A80141 rdf:type owl:NamedIndividual , :Aluno ; :nome "Marian Whitney" ; :idade "32" ; :frequenta :UC1 :UC2 .
+:A80142 rdf:type owl:NamedIndividual , :Aluno ; :nome "Glenna Bond" ; :idade "23" ; :frequenta :UC3 :UC2 .
+:A80143 rdf:type owl:NamedIndividual , :Aluno ; :nome "Kelley Fulton" ; :idade "24" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80144 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lynne Avila" ; :idade "21" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80145 rdf:type owl:NamedIndividual , :Aluno ; :nome "Serena Horn" ; :idade "32" ; :frequenta :UC3 :UC2 .
+:A80146 rdf:type owl:NamedIndividual , :Aluno ; :nome "Marisa Conley" ; :idade "37" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80147 rdf:type owl:NamedIndividual , :Aluno ; :nome "Marylou Nash" ; :idade "40" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80148 rdf:type owl:NamedIndividual , :Aluno ; :nome "Velazquez Lynn" ; :idade "18" ; :frequenta :UC2 :UC1 :UC3 .
+:A80149 rdf:type owl:NamedIndividual , :Aluno ; :nome "Aguirre Burgess" ; :idade "35" ; :frequenta :UC4 :UC3 .
+:A80150 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lamb Nguyen" ; :idade "26" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80151 rdf:type owl:NamedIndividual , :Aluno ; :nome "Tamara Griffin" ; :idade "21" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80152 rdf:type owl:NamedIndividual , :Aluno ; :nome "Priscilla Stuart" ; :idade "25" ; :frequenta :UC2 :UC4 .
+:A80153 rdf:type owl:NamedIndividual , :Aluno ; :nome "Benson House" ; :idade "27" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80154 rdf:type owl:NamedIndividual , :Aluno ; :nome "Roberta Palmer" ; :idade "26" ; :frequenta :UC4 .
+:A80155 rdf:type owl:NamedIndividual , :Aluno ; :nome "Villarreal Mcknight" ; :idade "21" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80156 rdf:type owl:NamedIndividual , :Aluno ; :nome "Shawna Gentry" ; :idade "35" ; :frequenta :UC1 :UC3 .
+:A80157 rdf:type owl:NamedIndividual , :Aluno ; :nome "Leon Osborn" ; :idade "38" ; :frequenta :UC1 :UC4 :UC3 .
+:A80158 rdf:type owl:NamedIndividual , :Aluno ; :nome "Arlene Ballard" ; :idade "26" ; :frequenta :UC2 :UC3 .
+:A80159 rdf:type owl:NamedIndividual , :Aluno ; :nome "Blanche Rodriguez" ; :idade "21" ; :frequenta :UC4 :UC2 .
+:A80160 rdf:type owl:NamedIndividual , :Aluno ; :nome "Madeline Morris" ; :idade "26" ; :frequenta :UC4 :UC3 .
+:A80161 rdf:type owl:NamedIndividual , :Aluno ; :nome "Celeste Oneal" ; :idade "19" ; :frequenta :UC2 :UC1 .
+:A80162 rdf:type owl:NamedIndividual , :Aluno ; :nome "Horton Waller" ; :idade "39" ; :frequenta :UC2 :UC3 :UC4 .
+:A80163 rdf:type owl:NamedIndividual , :Aluno ; :nome "Florence Noel" ; :idade "37" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80164 rdf:type owl:NamedIndividual , :Aluno ; :nome "Todd Hartman" ; :idade "32" ; :frequenta :UC4 :UC2 :UC3 .
+:A80165 rdf:type owl:NamedIndividual , :Aluno ; :nome "Cardenas Sanchez" ; :idade "31" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80166 rdf:type owl:NamedIndividual , :Aluno ; :nome "Darcy Duran" ; :idade "22" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80167 rdf:type owl:NamedIndividual , :Aluno ; :nome "Horne Delgado" ; :idade "20" ; :frequenta :UC4 .
+:A80168 rdf:type owl:NamedIndividual , :Aluno ; :nome "Woods Jacobson" ; :idade "22" ; :frequenta :UC4 :UC1 :UC3 .
+:A80169 rdf:type owl:NamedIndividual , :Aluno ; :nome "Forbes Douglas" ; :idade "32" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80170 rdf:type owl:NamedIndividual , :Aluno ; :nome "Farrell Lopez" ; :idade "36" ; :frequenta :UC2 .
+:A80171 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wheeler Colon" ; :idade "20" ; :frequenta :UC4 :UC1 :UC2 .
+:A80172 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lea Montgomery" ; :idade "40" ; :frequenta :UC1 :UC4 .
+:A80173 rdf:type owl:NamedIndividual , :Aluno ; :nome "Jeanie Green" ; :idade "25" ; :frequenta :UC1 :UC4 .
+:A80174 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mullins Howe" ; :idade "26" ; :frequenta :UC3 .
+:A80175 rdf:type owl:NamedIndividual , :Aluno ; :nome "Elma Clements" ; :idade "19" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80176 rdf:type owl:NamedIndividual , :Aluno ; :nome "Karen Tyler" ; :idade "27" ; :frequenta :UC3 :UC1 .
+:A80177 rdf:type owl:NamedIndividual , :Aluno ; :nome "Faulkner Nieves" ; :idade "25" ; :frequenta :UC4 :UC3 .
+:A80178 rdf:type owl:NamedIndividual , :Aluno ; :nome "Lester Cooke" ; :idade "32" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80179 rdf:type owl:NamedIndividual , :Aluno ; :nome "Gutierrez Keith" ; :idade "24" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80180 rdf:type owl:NamedIndividual , :Aluno ; :nome "Catherine Barber" ; :idade "32" ; :frequenta :UC4 :UC1 :UC3 .
+:A80181 rdf:type owl:NamedIndividual , :Aluno ; :nome "Aisha Tucker" ; :idade "38" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80182 rdf:type owl:NamedIndividual , :Aluno ; :nome "Conrad Harrison" ; :idade "23" ; :frequenta :UC4 :UC2 .
+:A80183 rdf:type owl:NamedIndividual , :Aluno ; :nome "Phoebe Bender" ; :idade "20" ; :frequenta :UC4 :UC1 .
+:A80184 rdf:type owl:NamedIndividual , :Aluno ; :nome "Stacy Lara" ; :idade "18" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80185 rdf:type owl:NamedIndividual , :Aluno ; :nome "Perez Charles" ; :idade "34" ; :frequenta :UC1 :UC3 .
+:A80186 rdf:type owl:NamedIndividual , :Aluno ; :nome "Gay Graves" ; :idade "26" ; :frequenta :UC4 :UC2 :UC3 .
+:A80187 rdf:type owl:NamedIndividual , :Aluno ; :nome "Dianna Albert" ; :idade "28" ; :frequenta :UC3 :UC4 .
+:A80188 rdf:type owl:NamedIndividual , :Aluno ; :nome "Pamela Phillips" ; :idade "36" ; :frequenta :UC1 :UC2 .
+:A80189 rdf:type owl:NamedIndividual , :Aluno ; :nome "Rhonda Burks" ; :idade "37" ; :frequenta :UC2 .
+:A80190 rdf:type owl:NamedIndividual , :Aluno ; :nome "Manning Cash" ; :idade "21" ; :frequenta :UC4 :UC3 :UC2 .
+:A80191 rdf:type owl:NamedIndividual , :Aluno ; :nome "Janine Michael" ; :idade "36" ; :frequenta :UC1 :UC2 :UC4 .
+:A80192 rdf:type owl:NamedIndividual , :Aluno ; :nome "Nichole Jacobs" ; :idade "25" ; :frequenta :UC2 :UC4 :UC1 .
+:A80193 rdf:type owl:NamedIndividual , :Aluno ; :nome "Cherry Orr" ; :idade "36" ; :frequenta :UC2 :UC3 .
+:A80194 rdf:type owl:NamedIndividual , :Aluno ; :nome "Joni Kerr" ; :idade "20" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80195 rdf:type owl:NamedIndividual , :Aluno ; :nome "Mccormick Carey" ; :idade "34" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80196 rdf:type owl:NamedIndividual , :Aluno ; :nome "Carrie Boyle" ; :idade "29" ; :frequenta :UC1 :UC2 :UC3 :UC4 .
+:A80197 rdf:type owl:NamedIndividual , :Aluno ; :nome "Atkinson Odonnell" ; :idade "28" ; :frequenta :UC1 :UC4 :UC2 .
+:A80198 rdf:type owl:NamedIndividual , :Aluno ; :nome "Hartman Johnson" ; :idade "27" ; :frequenta :UC1 :UC2 .
+:A80199 rdf:type owl:NamedIndividual , :Aluno ; :nome "Wise Thornton" ; :idade "27" ; :frequenta :UC4 :UC2 :UC3 .
