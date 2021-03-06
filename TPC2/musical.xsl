@@ -31,12 +31,20 @@
         <xsl:if test="tipo"> ;
         :tipo "<xsl:value-of select="tipo"/>"</xsl:if> 
         <xsl:if test="compositor"> ;
-        :compositor "<xsl:value-of select="compositor"/>"</xsl:if>
+        :compostoPor :<xsl:value-of select="translate(translate(compositor, ' ',''), ',','_')"/></xsl:if>
         <xsl:if test="arranjo"> ;
         :arranjo "<xsl:value-of select="arranjo"/>"</xsl:if>
         <xsl:if test="inf-relacionada/video"> ;
         :video "<xsl:value-of select="inf-relacionada/video/@href"/>"</xsl:if> .
         # ----------------------------------------
+
+        
+        <xsl:if test="compositor"> ;
+        ###  http://www.di.uminho.pt/prc2021/mapa#<xsl:value-of select="translate(translate(compositor, ' ',''), ',','_')"/>
+        :<xsl:value-of select="translate(translate(compositor, ' ',''), ',','_')"/> rdf:type owl:NamedIndividual ,
+        :Compositor .
+        # ----------------------------------
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="instrumento" mode="indice">:temInstrumento :ins_<xsl:value-of select="generate-id()"/> ;</xsl:template>
