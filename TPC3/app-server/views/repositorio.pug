@@ -1,0 +1,22 @@
+extends layout
+
+block content
+
+  header.w3-margin-left
+      h1.w3-text-blue Repositório #{repos} - 
+        span.w3-text-green Classes
+
+  
+
+  if classes.length
+  
+    each c in classes
+      ul
+        li 
+          a(href=`/repos/${repos}/classe/${c}`) 
+            b= c
+      
+  else 
+    p.w3-margin-left Não existem classes neste repositório.
+
+  a(href="/").w3-margin-left Página Inicial

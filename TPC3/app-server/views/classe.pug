@@ -1,0 +1,24 @@
+extends layout
+
+block content
+
+  header.w3-margin-left
+      h1.w3-text-blue Repositório
+        a(href=`/repos/${repos}` style="text-decoration: none")  #{repos} - 
+        span.w3-text-green  Classe #{classe} - 
+        span.w3-text-orange Indivíduos
+
+  
+
+  if individuos.length
+  
+    each i in individuos
+      ul
+        li 
+          a(href=`/repos/${repos}/individuo/${i}`)= i
+      
+  else 
+    p.w3-margin-left Não existem individuos nesta classe.
+
+  span(onclick=`window.history.go(-1)` style="text-decoration: underline; cursor:pointer;" ).w3-margin-left Voltar
+  a(href="/").w3-margin-left Página Inicial

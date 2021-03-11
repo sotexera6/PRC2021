@@ -1,0 +1,26 @@
+extends layout
+
+block content
+
+  header.w3-margin-left
+      h1.w3-text-blue Repositório
+        a(href=`/repos/${repos}` style="text-decoration: none")  #{repos} - 
+        span.w3-text-orange Indivíduo #{individuo}
+
+  if caracteristicas.length
+  
+    each c in caracteristicas
+      ul
+        li 
+          b #{c[0]}: 
+          if c[0]==="dir" || c[0]==="esq"
+            a(href=`/repos/${repos}/individuo/${c[1] }`)= c[1]      
+          else if c[0]==="type"
+            a(href=`/repos/${repos}/classe/${c[1] }`)= c[1] 
+          else
+            span= c[1]      
+  else 
+    p.w3-margin-left Não existem informações acerca deste individuo.
+
+  span(onclick=`window.history.go(-1)` style="text-decoration: underline; cursor:pointer;" ).w3-margin-left Voltar
+  a(href="/").w3-margin-left Página Inicial
