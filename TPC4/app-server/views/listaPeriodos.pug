@@ -1,0 +1,28 @@
+extends layout
+
+block content
+
+  header.w3-margin-left
+    h1.w3-text-blue 
+      a(href="/" style="text-decoration: none")  Tabela Periódica - 
+      span.w3-text-orange Periodos
+
+  if periodos.length
+    table.w3-table
+      tr
+        th ID
+        th Número 
+
+      each p in periodos  
+        tr 
+          td
+            a(href=`/periods/${p[0]}`)= p[0]
+          td= p[1] 
+        
+  else 
+    p.w3-margin-left Periodos não encontrados.
+
+  br
+  span(onclick=`window.history.go(-1)` style="text-decoration: underline; cursor:pointer;" ).w3-margin-left.w3-margin-bottom Voltar
+  
+  

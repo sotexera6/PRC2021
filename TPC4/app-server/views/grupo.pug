@@ -1,0 +1,36 @@
+extends layout
+
+block content
+
+  header.w3-margin-left
+
+    h1.w3-text-blue 
+      a(href="/" style="text-decoration: none")  Tabela Periódica - 
+      span.w3-text-pink Grupo #{id}
+  
+  if grupo
+  
+    ul
+      if grupo[0].name
+        li
+          b Nome: 
+          span= grupo[0].name.value
+      if grupo[0].number
+        li
+          b Número: 
+          span= grupo[0].number.value
+      li 
+        b Elementos: 
+        ul
+          each elem in grupo
+            li
+              a(href=`/elements/${elem.e.value.split('#')[1]}`)= elem.e.value.split('#')[1]
+
+
+        
+      
+  else 
+    p.w3-margin-left Não existe informação sobre este grupo.
+
+  span(onclick=`window.history.go(-1)` style="text-decoration: underline; cursor:pointer;" ).w3-margin-left Voltar
+  a(href="/groups").w3-margin-left Lista de Grupos

@@ -1,0 +1,33 @@
+extends layout
+
+block content
+
+  header.w3-margin-left
+    h1.w3-text-blue 
+      a(href="/" style="text-decoration: none")  Tabela Periódica - 
+      span.w3-text-teal Elementos
+
+  if elementos.length
+    table.w3-table
+      tr
+        th ID
+        th Nome 
+        th Grupo 
+        th Periodo 
+
+      each e in elementos  
+        tr 
+          td
+            a(href=`/elements/${e[0]}`)= e[0]
+          td= e[1]
+          td
+            a(href=`/groups/${e[2]}`)= e[2] 
+          td
+            a(href=`/periods/${e[3]}`)= e[3]  
+        
+  else 
+    p.w3-margin-left Grupos não encontrados.
+
+  br
+  span(onclick=`window.history.go(-1)` style="text-decoration: underline; cursor:pointer;" ).w3-margin-left.w3-margin-bottom Voltar
+  
