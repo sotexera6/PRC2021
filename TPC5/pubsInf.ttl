@@ -202,7 +202,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#BKRFBR08
 :BKRFBR08 rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthor :ar ,
                      :mk ;
           :hasAuthorRef :aab ,
@@ -219,7 +220,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FBR05-CAPSI
 :FBR05-CAPSI rdf:type owl:NamedIndividual ,
-                      :Inproceedings ;
+                      :Inproceedings ,
+                      :Pubs ;
              :hasAuthor :aab ;
              :hasAuthorRef :jcr ,
                            :mf ;
@@ -233,7 +235,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FBR06-Ariadne
 :FBR06-Ariadne rdf:type owl:NamedIndividual ,
-                        :Article ;
+                        :Article ,
+                        :Pubs ;
                :hasAuthorRef :aab ,
                              :jcr ,
                              :mf ;
@@ -248,7 +251,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FBR06-XATA
 :FBR06-XATA rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :hasAuthorRef :aab ,
                           :jcr ,
                           :mf ;
@@ -263,7 +267,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FBR07
 :FBR07 rdf:type owl:NamedIndividual ,
-                :Misc ;
+                :Misc ,
+                :Pubs ;
        :hasAuthorRef :aab ,
                      :jcr ,
                      :mf ;
@@ -275,7 +280,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FBR07-IJDL
 :FBR07-IJDL rdf:type owl:NamedIndividual ,
-                     :Article ;
+                     :Article ,
+                     :Pubs ;
             :hasAuthorRef :aab ,
                           :jcr ,
                           :mf ;
@@ -290,7 +296,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FCRBCF07
 :FCRBCF07 rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthorRef :fb ,
                         :jcr ,
                         :lcor ,
@@ -307,7 +314,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FFR10
 :FFR10 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :lmf ,
                      :mf ;
@@ -321,7 +329,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR04
 :FR04 rdf:type owl:NamedIndividual ,
-               :Inproceedings ;
+               :Inproceedings ,
+               :Pubs ;
       :hasAuthor :mf ;
       :hasAuthorRef :jcr ;
       :address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
@@ -335,7 +344,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR04-capsi
 :FR04-capsi rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :hasAuthorRef :jcr ,
                           :mf ;
             :address "Instituto Superior Técnico, Lisboa, Portugal" ;
@@ -348,7 +358,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR04b
 :FR04b rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :mf ;
        :address "Department of Information and Documentation Science at the University of Brasilia, in Brazil" ;
@@ -362,7 +373,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR09
 :FR09 rdf:type owl:NamedIndividual ,
-               :Inproceedings ;
+               :Inproceedings ,
+               :Pubs ;
       :hasAuthor :rf ;
       :hasAuthorRef :jcr ;
       :address "Lisboa - Portugal" ;
@@ -376,7 +388,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR10
 :FR10 rdf:type owl:NamedIndividual ,
-               :Inproceedings ;
+               :Inproceedings ,
+               :Pubs ;
       :hasAuthorRef :jcr ,
                     :rf ;
       :address "Glasgow, UK" ;
@@ -390,7 +403,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR11
 :FR11 rdf:type owl:NamedIndividual ,
-               :Inproceedings ;
+               :Inproceedings ,
+               :Pubs ;
       :hasAuthorRef :jcr ,
                     :rf ;
       :address "ESEIG -IPP, Vila do Conde - Portugal" ;
@@ -403,7 +417,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR11b
 :FR11b rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :rf ;
        :address "Universidade Lusíada, Vila Nova de Famalicão, Portugal" ;
@@ -416,7 +431,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR11c
 :FR11c rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :rf ;
        :address "Lisboa, Portugal" ;
@@ -429,7 +445,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR11d
 :FR11d rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :rf ;
        :address "Berlin, Germany" ;
@@ -442,7 +459,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FR11e
 :FR11e rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :rf ;
        :address "Singapore" ;
@@ -455,7 +473,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#FRF-XATA
 :FRF-XATA rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthor :lmf ;
           :hasAuthorRef :jcr ,
                         :mf ;
@@ -469,7 +488,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#GARH09
 :GARH09 rdf:type owl:NamedIndividual ,
-                 :Article ;
+                 :Article ,
+                 :Pubs ;
         :hasAuthorRef :grl ,
                       :jcr ,
                       :prh ,
@@ -484,7 +504,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#IGI2013
 :IGI2013 rdf:type owl:NamedIndividual ,
-                  :Inbook ;
+                  :Inbook ,
+                  :Pubs ;
          :editedBy :rq ;
          :hasAuthorRef :jcr ,
                        :rf ;
@@ -501,7 +522,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#JHR00
 :JHR00 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :mhj ,
                      :prh ;
@@ -515,7 +537,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#JLRH02
 :JLRH02 rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthor :mhj ;
         :hasAuthorRef :grl ,
                       :jcr ,
@@ -530,7 +553,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#JLRH02b
 :JLRH02b rdf:type owl:NamedIndividual ,
-                  :Article ;
+                  :Article ,
+                  :Pubs ;
          :hasAuthorRef :grl ,
                        :jcr ,
                        :mhj ,
@@ -546,7 +570,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#JLRH03
 :JLRH03 rdf:type owl:NamedIndividual ,
-                 :Article ;
+                 :Article ,
+                 :Pubs ;
         :hasAuthorRef :grl ,
                       :jcr ,
                       :mhj ,
@@ -559,7 +584,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#JLRHb02
 :JLRHb02 rdf:type owl:NamedIndividual ,
-                  :Inproceedings ;
+                  :Inproceedings ,
+                  :Pubs ;
          :hasAuthorRef :grl ,
                        :jcr ,
                        :mhj ,
@@ -574,7 +600,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#JLRHc02
 :JLRHc02 rdf:type owl:NamedIndividual ,
-                  :Inproceedings ;
+                  :Inproceedings ,
+                  :Pubs ;
          :hasAuthorRef :grl ,
                        :jcr ,
                        :mhj ,
@@ -589,7 +616,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#JRH03
 :JRH03 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :mhj ,
                      :prh ;
@@ -603,7 +631,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LARH07-EPIA
 :LARH07-EPIA rdf:type owl:NamedIndividual ,
-                      :Inproceedings ;
+                      :Inproceedings ,
+                      :Pubs ;
              :hasAuthorRef :grl ,
                            :jcr ,
                            :prh ,
@@ -617,7 +646,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LATRH07-CLEI
 :LATRH07-CLEI rdf:type owl:NamedIndividual ,
-                       :Inproceedings ;
+                       :Inproceedings ,
+                       :Pubs ;
               :hasAuthor :rct ;
               :hasAuthorRef :grl ,
                             :jcr ,
@@ -632,7 +662,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LGRH07-CLEI
 :LGRH07-CLEI rdf:type owl:NamedIndividual ,
-                      :Inproceedings ;
+                      :Inproceedings ,
+                      :Pubs ;
              :hasAuthor :jg ;
              :hasAuthorRef :grl ,
                            :jcr ,
@@ -646,7 +677,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LMMFRH07-TMRA
 :LMMFRH07-TMRA rdf:type owl:NamedIndividual ,
-                        :Inproceedings ;
+                        :Inproceedings ,
+                        :Pubs ;
                :hasAuthor :htm ,
                           :mom ,
                           :pgf ;
@@ -662,7 +694,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LMMVRH08-XATA
 :LMMVRH08-XATA rdf:type owl:NamedIndividual ,
-                        :Inproceedings ;
+                        :Inproceedings ,
+                        :Pubs ;
                :hasAuthor :hm ,
                           :jv ,
                           :mm ;
@@ -678,7 +711,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LPRH07-TM
 :LPRH07-TM rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthorRef :grl ,
                          :jcr ,
                          :prh ,
@@ -693,7 +727,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LPRH07-XATA
 :LPRH07-XATA rdf:type owl:NamedIndividual ,
-                      :Inproceedings ;
+                      :Inproceedings ,
+                      :Pubs ;
              :hasAuthor :rpa ;
              :hasAuthorRef :grl ,
                            :jcr ,
@@ -708,7 +743,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LR04
 :LR04 rdf:type owl:NamedIndividual ,
-               :Inproceedings ;
+               :Inproceedings ,
+               :Pubs ;
       :hasAuthor :cajo ;
       :hasAuthorRef :jcr ;
       :address "Faculdade de Engenharia da Universidade do Porto - Porto" ;
@@ -722,7 +758,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH03
 :LRH03 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :grl ,
                      :jcr ,
                      :prh ;
@@ -736,7 +773,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH03b
 :LRH03b rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthorRef :grl ,
                       :jcr ,
                       :prh ;
@@ -750,7 +788,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH03c
 :LRH03c rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthorRef :grl ,
                       :jcr ,
                       :prh ;
@@ -764,7 +803,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH04
 :LRH04 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :grl ,
                      :jcr ,
                      :prh ;
@@ -779,7 +819,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH04-Clei
 :LRH04-Clei rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :editedBy :clei04 ;
             :hasAuthorRef :grl ,
                           :jcr ,
@@ -796,7 +837,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH04-WWS
 :LRH04-WWS rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthorRef :grl ,
                          :jcr ,
                          :prh ;
@@ -810,7 +852,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH04-XMLw
 :LRH04-XMLw rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :hasAuthorRef :grl ,
                           :jcr ,
                           :prh ;
@@ -824,7 +867,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH05
 :LRH05 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :grl ,
                      :jcr ,
                      :prh ;
@@ -839,7 +883,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH05-CLEI
 :LRH05-CLEI rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :hasAuthorRef :grl ,
                           :jcr ,
                           :prh ;
@@ -854,7 +899,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH05b
 :LRH05b rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthorRef :grl ,
                       :jcr ,
                       :prh ;
@@ -869,7 +915,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH06-SBSI06
 :LRH06-SBSI06 rdf:type owl:NamedIndividual ,
-                       :Inproceedings ;
+                       :Inproceedings ,
+                       :Pubs ;
               :hasAuthorRef :grl ,
                             :jcr ,
                             :prh ;
@@ -882,7 +929,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH06-XATA
 :LRH06-XATA rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :hasAuthorRef :grl ,
                           :jcr ,
                           :prh ;
@@ -897,7 +945,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH07-SEMINFO
 :LRH07-SEMINFO rdf:type owl:NamedIndividual ,
-                        :Inproceedings ;
+                        :Inproceedings ,
+                        :Pubs ;
                :hasAuthorRef :grl ,
                              :jcr ,
                              :prh ;
@@ -909,7 +958,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRH97
 :LRH97 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :arl ,
                      :jcr ,
                      :prh ;
@@ -923,7 +973,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LRHGT08
 :LRHGT08 rdf:type owl:NamedIndividual ,
-                  :Inproceedings ;
+                  :Inproceedings ,
+                  :Pubs ;
          :hasAuthorRef :grl ,
                        :jcr ,
                        :jg ,
@@ -939,7 +990,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#LSRH04
 :LSRH04 rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthor :ws ;
         :hasAuthorRef :grl ,
                       :jcr ,
@@ -954,7 +1006,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#MRH04
 :MRH04 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthor :ram ;
        :hasAuthorRef :jcr ,
                      :prh ;
@@ -969,7 +1022,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RAH1998
 :RAH1998 rdf:type owl:NamedIndividual ,
-                  :Article ;
+                  :Article ,
+                  :Pubs ;
          :hasAuthor :jj ;
          :hasAuthorRef :jcr ,
                        :prh ;
@@ -982,7 +1036,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RAH95
 :RAH95 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :jj ,
                      :prh ;
@@ -997,7 +1052,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RAH96
 :RAH96 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :jj ,
                      :prh ;
@@ -1011,7 +1067,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RARH98
 :RARH98 rdf:type owl:NamedIndividual ,
-                 :Article ;
+                 :Article ,
+                 :Pubs ;
         :hasAuthor :jgr ;
         :hasAuthorRef :jcr ,
                       :jj ,
@@ -1027,7 +1084,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RD06-XATA
 :RD06-XATA rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthor :migaldo ;
            :hasAuthorRef :jcr ;
            :address "Portalegre - Portugal" ;
@@ -1041,7 +1099,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RFCFBC06
 :RFCFBC06 rdf:type owl:NamedIndividual ,
-                   :Misc ;
+                   :Misc ,
+                   :Pubs ;
           :hasAuthorRef :fb ,
                         :jcr ,
                         :lcor ,
@@ -1056,7 +1115,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RFCFBC07
 :RFCFBC07 rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthor :fb ,
                      :lcor ,
                      :lf ,
@@ -1073,7 +1133,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RFFC07-EML
 :RFFC07-EML rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :hasAuthorRef :jcr ,
                           :lf ,
                           :mf ,
@@ -1088,7 +1149,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RFFCBC08
 :RFFCBC08 rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthorRef :fb ,
                         :jcr ,
                         :lc ,
@@ -1105,7 +1167,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RFFLS06
 :RFFLS06 rdf:type owl:NamedIndividual ,
-                  :Inproceedings ;
+                  :Inproceedings ,
+                  :Pubs ;
          :hasAuthor :as ,
                     :mjpl ;
          :hasAuthorRef :jcr ,
@@ -1121,7 +1184,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RH2002
 :RH2002 rdf:type owl:NamedIndividual ,
-                 :Book ;
+                 :Book ,
+                 :Pubs ;
         :hasAuthor :jcr ,
                    :prh ;
         :address "FCA - Editora de Informática" ;
@@ -1133,7 +1197,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RH94
 :RH94 rdf:type owl:NamedIndividual ,
-               :Inproceedings ;
+               :Inproceedings ,
+               :Pubs ;
       :hasAuthorRef :jcr ,
                     :prh ;
       :address "Universidade do Minho" ;
@@ -1145,7 +1210,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RH98
 :RH98 rdf:type owl:NamedIndividual ,
-               :Article ;
+               :Article ,
+               :Pubs ;
       :hasAuthorRef :jcr ,
                     :prh ;
       :journal "Sistemas de Informação" ;
@@ -1156,7 +1222,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RH98b
 :RH98b rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :prh ;
        :address "Guimarães - Portugal" ;
@@ -1168,7 +1235,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RH98c
 :RH98c rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :prh ;
        :address "Porto - Portugal" ;
@@ -1179,7 +1247,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RH98d
 :RH98d rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :prh ;
        :address "Loures - Portugal " ;
@@ -1190,7 +1259,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RH99
 :RH99 rdf:type owl:NamedIndividual ,
-               :Inproceedings ;
+               :Inproceedings ,
+               :Pubs ;
       :hasAuthorRef :jcr ,
                     :jj ;
       :address "Granada - Espanha" ;
@@ -1202,7 +1272,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RHHRAF98
 :RHHRAF98 rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthor :jlf ,
                      :mrh ;
           :hasAuthorRef :jcr ,
@@ -1219,7 +1290,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RHL04-eLes
 :RHL04-eLes rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :hasAuthorRef :grl ,
                           :jcr ,
                           :prh ;
@@ -1234,7 +1306,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RHLA03
 :RHLA03 rdf:type owl:NamedIndividual ,
-                 :Proceedings ;
+                 :Proceedings ,
+                 :Pubs ;
         :editedBy :gva ;
         :hasEditorRef :grl ,
                       :jcr ,
@@ -1248,7 +1321,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RHb98
 :RHb98 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ,
                      :prh ;
        :address "Paris - France" ;
@@ -1261,7 +1335,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RL05
 :RL05 rdf:type owl:NamedIndividual ,
-               :Book ;
+               :Book ,
+               :Pubs ;
       :hasAuthorRef :cajo ,
                     :jcr ;
       :address "FCA - Editora de Informática" ;
@@ -1274,7 +1349,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLA08
 :RLA08 rdf:type owl:NamedIndividual ,
-                :Proceedings ;
+                :Proceedings ,
+                :Pubs ;
        :editedBy :sa ;
        :hasEditorRef :jcl ,
                      :jcr ;
@@ -1288,7 +1364,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLC07
 :RLC07 rdf:type owl:NamedIndividual ,
-                :Proceedings ;
+                :Proceedings ,
+                :Pubs ;
        :editedBy :lc ;
        :hasEditorRef :jcl ,
                      :jcr ;
@@ -1302,7 +1379,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH03
 :RLH03 rdf:type owl:NamedIndividual ,
-                :Article ;
+                :Article ,
+                :Pubs ;
        :hasAuthorRef :grl ,
                      :jcr ,
                      :prh ;
@@ -1316,7 +1394,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH03b
 :RLH03b rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthorRef :grl ,
                       :jcr ,
                       :prh ;
@@ -1330,7 +1409,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH04
 :RLH04 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :grl ,
                      :jcr ,
                      :prh ;
@@ -1345,7 +1425,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH05
 :RLH05 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :grl ,
                      :jcr ,
                      :prh ;
@@ -1359,7 +1440,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH05-revAPSI17
 :RLH05-revAPSI17 rdf:type owl:NamedIndividual ,
-                          :Article ;
+                          :Article ,
+                          :Pubs ;
                  :hasAuthorRef :grl ,
                                :jcr ,
                                :prh ;
@@ -1374,7 +1456,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH05b
 :RLH05b rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthorRef :grl ,
                       :jcr ,
                       :prh ;
@@ -1388,7 +1471,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH06
 :RLH06 rdf:type owl:NamedIndividual ,
-                :Inbook ;
+                :Inbook ,
+                :Pubs ;
        :editedBy :lutz ,
                  :park ;
        :hasAuthorRef :grl ,
@@ -1407,7 +1491,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH07-EML
 :RLH07-EML rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthorRef :grl ,
                          :jcr ,
                          :prh ,
@@ -1422,7 +1507,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH2003
 :RLH2003 rdf:type owl:NamedIndividual ,
-                  :Inproceedings ;
+                  :Inproceedings ,
+                  :Pubs ;
          :hasAuthor :grl ;
          :hasAuthorRef :jcr ,
                        :prh ;
@@ -1436,7 +1522,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLH98
 :RLH98 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthor :arl ;
        :hasAuthorRef :jcr ,
                      :prh ;
@@ -1450,7 +1537,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RLS06
 :RLS06 rdf:type owl:NamedIndividual ,
-                :Proceedings ;
+                :Proceedings ,
+                :Pubs ;
        :hasEditorRef :albie ,
                      :jcl ,
                      :jcr ;
@@ -1464,7 +1552,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RQR10
 :RQR10 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthor :mam ,
                   :mjc ;
        :hasAuthorRef :jcr ;
@@ -1479,7 +1568,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RRAH97
 :RRAH97 rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthorRef :jcr ,
                       :jgr ,
                       :jj ,
@@ -1494,7 +1584,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RS04
 :RS04 rdf:type owl:NamedIndividual ,
-               :Proceedings ;
+               :Proceedings ,
+               :Pubs ;
       :editedBy :albie ;
       :hasEditorRef :jcr ;
       :address "Faculdade de Engenharia do Porto - Portugal" ;
@@ -1507,7 +1598,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RS2003
 :RS2003 rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthor :jls ;
         :hasAuthorRef :jcr ;
         :address "Universidade do Minho - Guimarães - Portugal" ;
@@ -1520,7 +1612,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RSL05
 :RSL05 rdf:type owl:NamedIndividual ,
-                :Proceedings ;
+                :Proceedings ,
+                :Pubs ;
        :editedBy :jcl ;
        :hasEditorRef :albie ,
                      :jcr ;
@@ -1534,7 +1627,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#RTFR04
 :RTFR04 rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthor :pt ,
                    :vr ;
         :hasAuthorRef :jcr ,
@@ -1550,7 +1644,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram01
 :Ram01 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ;
        :address "Berlin - Germany" ;
        :booktitle "XML Europe'01" ;
@@ -1562,7 +1657,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram03
 :Ram03 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ;
        :address "Braga - Portugal" ;
        :booktitle "XATA 2003 - XML, Aplicações e Tecnologias Associadas" ;
@@ -1574,7 +1670,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram05
 :Ram05 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ;
        :address "Braga" ;
        :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)" ;
@@ -1587,7 +1684,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram2000
 :Ram2000 rdf:type owl:NamedIndividual ,
-                  :Phdthesis ;
+                  :Phdthesis ,
+                  :Pubs ;
          :hasAuthorRef :jcr ;
          :address "Universidade do Minho" ;
          :doi "http://hdl.handle.net/1822/5625" ;
@@ -1599,7 +1697,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram93
 :Ram93 rdf:type owl:NamedIndividual ,
-                :Masterthesis ;
+                :Masterthesis ,
+                :Pubs ;
        :hasAuthorRef :jcr ;
        :month "10" ;
        :school "Escola de Engenharia - Universidade do Minho" ;
@@ -1609,7 +1708,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram96
 :Ram96 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ;
        :address "Universidade do Minho" ;
        :booktitle "Workshop: Document Processing and SGML" ;
@@ -1620,7 +1720,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram98
 :Ram98 rdf:type owl:NamedIndividual ,
-                :Misc ;
+                :Misc ,
+                :Pubs ;
        :hasAuthorRef :jcr ;
        :howpublished "tutorial at Terceiro Encontro Nacional para a Qualidade nas tecnologias de informação e comunicação, Guimarães - Portugal" ;
        :title "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?" ;
@@ -1629,7 +1730,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram99
 :Ram99 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthorRef :jcr ;
        :address "London - England" ;
        :booktitle "Digital Resources for the Humanities - DRH99" ;
@@ -1639,7 +1741,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#Ram99b
 :Ram99b rdf:type owl:NamedIndividual ,
-                 :Inbook ;
+                 :Inbook ,
+                 :Pubs ;
         :hasAuthorRef :jcr ;
         :chapter "Extensible Markup Language (XML)- A promessa e a esperança?..." ;
         :month "11.23-26" ;
@@ -1651,7 +1754,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#SFRL07
 :SFRL07 rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthorRef :as ,
                       :jcr ,
                       :lmf ,
@@ -1666,7 +1770,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#SMR03
 :SMR03 rdf:type owl:NamedIndividual ,
-                :Inproceedings ;
+                :Inproceedings ,
+                :Pubs ;
        :hasAuthor :des ,
                   :mcm ;
        :hasAuthorRef :jcr ;
@@ -1680,7 +1785,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#SRFP95
 :SRFP95 rdf:type owl:NamedIndividual ,
-                 :Article ;
+                 :Article ,
+                 :Pubs ;
         :hasAuthor :ajp ,
                    :hs ,
                    :jmf ;
@@ -1693,7 +1799,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#VECPAR93
 :VECPAR93 rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthorRef :ajp ,
                         :hs ,
                         :jcr ,
@@ -1705,49 +1812,74 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#aa
 :aa rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :ipres2013 ;
     :name "Alan Akbik" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#aab
 :aab rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :FBR05-CAPSI ;
+     :isRefAuthorIn :BKRFBR08 ,
+                    :FBR06-Ariadne ,
+                    :FBR06-XATA ,
+                    :FBR07 ,
+                    :FBR07-IJDL ;
      :name "Ana Alice Baptista" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#ajp
 :ajp rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :SRFP95 ;
+     :isRefAuthorIn :VECPAR93 ;
      :name "A. J. Proença" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#albie
 :albie rdf:type owl:NamedIndividual ,
-                :Editor ;
+                :Editor ,
+                :People ;
+       :edited :RS04 ;
+       :isRefEditorIn :IGI2013 ,
+                      :RLS06 ,
+                      :RSL05 ;
        :name "Alberto Simões" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#alexandra
 :alexandra rdf:type owl:NamedIndividual ,
-                    :Author ;
+                    :Author ,
+                    :People ;
+           :authorOf :edicic2015 ;
+           :isRefAuthorIn :bad2015a ;
            :name "Alexandra Lourenço" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#ap
 :ap rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :cisti2017 ;
     :name "André Pereira" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#ar
 :ar rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :BKRFBR08 ;
     :name "Andreas Rauber" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#archiving2013
 :archiving2013 rdf:type owl:NamedIndividual ,
-                        :Inproceedings ;
+                        :Inproceedings ,
+                        :Pubs ;
                :hasAuthorRef :jcr ,
                              :lf ,
                              :mf ;
@@ -1761,25 +1893,34 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#arl
 :arl rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :RLH98 ;
+     :isRefAuthorIn :LRH97 ;
      :name "A. R. Lopes" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#as
 :as rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :RFFLS06 ;
+    :isRefAuthorIn :SFRL07 ;
     :name "António Sousa" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#asantos
 :asantos rdf:type owl:NamedIndividual ,
-                  :Author ;
+                  :Author ,
+                  :People ;
+         :authorOf :bad2015b ;
          :name "André Santos" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#bad2012
 :bad2012 rdf:type owl:NamedIndividual ,
-                  :Inproceedings ;
+                  :Inproceedings ,
+                  :Pubs ;
          :hasAuthorRef :jcr ,
                        :lf ,
                        :mf ;
@@ -1793,7 +1934,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#bad2015a
 :bad2015a rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthorRef :alexandra ,
                         :jcr ,
                         :penteado ;
@@ -1807,7 +1949,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#bad2015b
 :bad2015b rdf:type owl:NamedIndividual ,
-                   :Inproceedings ;
+                   :Inproceedings ,
+                   :Pubs ;
           :hasAuthor :asantos ,
                      :eloy ,
                      :jcarvalho ,
@@ -1826,31 +1969,44 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#bf
 :bf rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :iPRES2016 ;
     :name "Bruno Ferreira" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#bs
 :bs rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :ipres2013 ;
     :name "Barbara Sierman" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#cajo
 :cajo rdf:type owl:NamedIndividual ,
-               :Author ;
+               :Author ,
+               :People ;
+      :authorOf :LR04 ;
+      :isRefAuthorIn :RL05 ;
       :name "Carlos J. Feijó Lopes" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#cb
 :cb rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :ipres2012 ;
+    :isRefAuthorIn :BKRFBR08 ,
+                   :icadl2012 ,
+                   :or2013 ;
     :name "Christoph Becker" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#cisti2017
 :cisti2017 rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthor :ap ;
            :hasAuthorRef :jcr ,
                          :lf ,
@@ -1865,19 +2021,24 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#clei04
 :clei04 rdf:type owl:NamedIndividual ,
-                 :Editor ;
+                 :Editor ,
+                 :People ;
+        :edited :LRH04-Clei ;
         :name "Mauricio Solar and David Fernández-Baca and Ernesto Cuadros-Vargas" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#des
 :des rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :SMR03 ;
      :name "Daniel Edgar Pinto Soares" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#dlm2014
 :dlm2014 rdf:type owl:NamedIndividual ,
-                  :Inproceedings ;
+                  :Inproceedings ,
+                  :Pubs ;
          :hasAuthor :hsilva ;
          :hasAuthorRef :jcr ,
                        :lf ;
@@ -1891,7 +2052,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#edicic2015
 :edicic2015 rdf:type owl:NamedIndividual ,
-                     :Inproceedings ;
+                     :Inproceedings ,
+                     :Pubs ;
             :hasAuthor :alexandra ,
                        :penteado ;
             :hasAuthorRef :jcr ;
@@ -1905,25 +2067,74 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#eloy
 :eloy rdf:type owl:NamedIndividual ,
-               :Author ;
+               :Author ,
+               :People ;
+      :authorOf :bad2015b ;
       :name "Eloy Rodrigues" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#fb
 :fb rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :RFCFBC07 ;
+    :isRefAuthorIn :FCRBCF07 ,
+                   :RFCFBC06 ,
+                   :RFFCBC08 ;
     :name "Francisco Barbedo" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#grl
 :grl rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :Editor ,
+              :People ;
+     :authorOf :RLH2003 ;
+     :isRefAuthorIn :GARH09 ,
+                    :JLRH02 ,
+                    :JLRH02b ,
+                    :JLRH03 ,
+                    :JLRHb02 ,
+                    :JLRHc02 ,
+                    :LARH07-EPIA ,
+                    :LATRH07-CLEI ,
+                    :LGRH07-CLEI ,
+                    :LMMFRH07-TMRA ,
+                    :LMMVRH08-XATA ,
+                    :LPRH07-TM ,
+                    :LPRH07-XATA ,
+                    :LRH03 ,
+                    :LRH03b ,
+                    :LRH03c ,
+                    :LRH04 ,
+                    :LRH04-Clei ,
+                    :LRH04-WWS ,
+                    :LRH04-XMLw ,
+                    :LRH05 ,
+                    :LRH05-CLEI ,
+                    :LRH05b ,
+                    :LRH06-SBSI06 ,
+                    :LRH06-XATA ,
+                    :LRH07-SEMINFO ,
+                    :LRHGT08 ,
+                    :LSRH04 ,
+                    :RHL04-eLes ,
+                    :RLH03 ,
+                    :RLH03b ,
+                    :RLH04 ,
+                    :RLH05 ,
+                    :RLH05-revAPSI17 ,
+                    :RLH05b ,
+                    :RLH06 ,
+                    :RLH07-EML ;
+     :isRefEditorIn :RHLA03 ;
      :name "Giovani Rubert Librelotto" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#guimaramus2012
 :guimaramus2012 rdf:type owl:NamedIndividual ,
-                         :Inproceedings ;
+                         :Inproceedings ,
+                         :Pubs ;
                 :hasAuthorRef :jcr ;
                 :address "Palácio Vila Flor, Guimarães" ;
                 :booktitle "Pensar a Música" ;
@@ -1935,37 +2146,50 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#gva
 :gva rdf:type owl:NamedIndividual ,
-              :Editor ;
+              :Editor ,
+              :People ;
+     :edited :RHLA03 ;
      :name "Gustavo V. Arnold" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#hm
 :hm rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :LMMVRH08-XATA ;
     :name "Henrique Machado" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#hs
 :hs rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :SRFP95 ;
+    :isRefAuthorIn :VECPAR93 ;
     :name "H. Santos" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#hsilva
 :hsilva rdf:type owl:NamedIndividual ,
-                 :Author ;
+                 :Author ,
+                 :People ;
+        :authorOf :dlm2014 ;
+        :isRefAuthorIn :bad2015b ;
         :name "Hélder Silva" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#htm
 :htm rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :LMMFRH07-TMRA ;
      :name "H. T. Machado" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#iPRES2016
 :iPRES2016 rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthor :bf ;
            :hasAuthorRef :jcr ,
                          :lf ,
@@ -1980,7 +2204,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#icadl2012
 :icadl2012 rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthorRef :cb ,
                          :jcr ,
                          :kd ,
@@ -1997,7 +2222,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#ipres2012
 :ipres2012 rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthor :cb ,
                       :kd ,
                       :pp ;
@@ -2014,7 +2240,8 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#ipres2013
 :ipres2013 rdf:type owl:NamedIndividual ,
-                    :Inproceedings ;
+                    :Inproceedings ,
+                    :Pubs ;
            :hasAuthor :aa ,
                       :bs ,
                       :mr ;
@@ -2031,181 +2258,429 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jcarvalho
 :jcarvalho rdf:type owl:NamedIndividual ,
-                    :Author ;
+                    :Author ,
+                    :People ;
+           :authorOf :bad2015b ;
            :name "José Carvalho" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jcl
 :jcl rdf:type owl:NamedIndividual ,
-              :Editor ;
+              :Editor ,
+              :People ;
+     :edited :RSL05 ;
+     :isRefEditorIn :RLA08 ,
+                    :RLC07 ,
+                    :RLS06 ;
      :name "João Correia Lopes" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jcr
 :jcr rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :Editor ,
+              :People ;
+     :authorOf :RH2002 ;
+     :isRefAuthorIn :BKRFBR08 ,
+                    :FBR05-CAPSI ,
+                    :FBR06-Ariadne ,
+                    :FBR06-XATA ,
+                    :FBR07 ,
+                    :FBR07-IJDL ,
+                    :FCRBCF07 ,
+                    :FFR10 ,
+                    :FR04 ,
+                    :FR04-capsi ,
+                    :FR04b ,
+                    :FR09 ,
+                    :FR10 ,
+                    :FR11 ,
+                    :FR11b ,
+                    :FR11c ,
+                    :FR11d ,
+                    :FR11e ,
+                    :FRF-XATA ,
+                    :GARH09 ,
+                    :IGI2013 ,
+                    :JHR00 ,
+                    :JLRH02 ,
+                    :JLRH02b ,
+                    :JLRH03 ,
+                    :JLRHb02 ,
+                    :JLRHc02 ,
+                    :JRH03 ,
+                    :LARH07-EPIA ,
+                    :LATRH07-CLEI ,
+                    :LGRH07-CLEI ,
+                    :LMMFRH07-TMRA ,
+                    :LMMVRH08-XATA ,
+                    :LPRH07-TM ,
+                    :LPRH07-XATA ,
+                    :LR04 ,
+                    :LRH03 ,
+                    :LRH03b ,
+                    :LRH03c ,
+                    :LRH04 ,
+                    :LRH04-Clei ,
+                    :LRH04-WWS ,
+                    :LRH04-XMLw ,
+                    :LRH05 ,
+                    :LRH05-CLEI ,
+                    :LRH05b ,
+                    :LRH06-SBSI06 ,
+                    :LRH06-XATA ,
+                    :LRH07-SEMINFO ,
+                    :LRH97 ,
+                    :LRHGT08 ,
+                    :LSRH04 ,
+                    :MRH04 ,
+                    :RAH1998 ,
+                    :RAH95 ,
+                    :RAH96 ,
+                    :RARH98 ,
+                    :RD06-XATA ,
+                    :RFCFBC06 ,
+                    :RFCFBC07 ,
+                    :RFFC07-EML ,
+                    :RFFCBC08 ,
+                    :RFFLS06 ,
+                    :RH94 ,
+                    :RH98 ,
+                    :RH98b ,
+                    :RH98c ,
+                    :RH98d ,
+                    :RH99 ,
+                    :RHHRAF98 ,
+                    :RHL04-eLes ,
+                    :RHb98 ,
+                    :RL05 ,
+                    :RLH03 ,
+                    :RLH03b ,
+                    :RLH04 ,
+                    :RLH05 ,
+                    :RLH05-revAPSI17 ,
+                    :RLH05b ,
+                    :RLH06 ,
+                    :RLH07-EML ,
+                    :RLH2003 ,
+                    :RLH98 ,
+                    :RQR10 ,
+                    :RRAH97 ,
+                    :RS2003 ,
+                    :RTFR04 ,
+                    :Ram01 ,
+                    :Ram03 ,
+                    :Ram05 ,
+                    :Ram2000 ,
+                    :Ram93 ,
+                    :Ram96 ,
+                    :Ram98 ,
+                    :Ram99 ,
+                    :Ram99b ,
+                    :SFRL07 ,
+                    :SMR03 ,
+                    :SRFP95 ,
+                    :VECPAR93 ,
+                    :archiving2013 ,
+                    :bad2012 ,
+                    :bad2015a ,
+                    :bad2015b ,
+                    :cisti2017 ,
+                    :dlm2014 ,
+                    :edicic2015 ,
+                    :guimaramus2012 ,
+                    :iPRES2016 ,
+                    :icadl2012 ,
+                    :ipres2012 ,
+                    :ipres2013 ,
+                    :or2013 ;
+     :isRefEditorIn :IGI2013 ,
+                    :RHLA03 ,
+                    :RLA08 ,
+                    :RLC07 ,
+                    :RLS06 ,
+                    :RS04 ,
+                    :RSL05 ;
      :name "José Carlos Ramalho" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jg
 :jg rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :LGRH07-CLEI ;
+    :isRefAuthorIn :LRHGT08 ;
     :name "Jonas Gassen" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jgr
 :jgr rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :RARH98 ;
+     :isRefAuthorIn :RHHRAF98 ,
+                    :RRAH97 ;
      :name "J. G. Rocha" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jj
 :jj rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :RAH1998 ;
+    :isRefAuthorIn :RAH95 ,
+                   :RAH96 ,
+                   :RARH98 ,
+                   :RH99 ,
+                   :RHHRAF98 ,
+                   :RRAH97 ;
     :name "José João Almeida" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jlf
 :jlf rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :RHHRAF98 ;
      :name "J. L. Faria" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jls
 :jls rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :RS2003 ;
      :name "José Luis Santos" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jmf
 :jmf rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :SRFP95 ;
+     :isRefAuthorIn :VECPAR93 ;
      :name "J. M. Fernandes" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jmoreira
 :jmoreira rdf:type owl:NamedIndividual ,
-                   :Author ;
+                   :Author ,
+                   :People ;
+          :authorOf :bad2015b ;
           :name "João Moreira" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#jv
 :jv rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :LMMVRH08-XATA ;
     :name "Juliana Vizzotto" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#kd
 :kd rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :ipres2012 ;
+    :isRefAuthorIn :icadl2012 ,
+                   :or2013 ;
     :name "Kresimir Duretec " .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#lc
 :lc rdf:type owl:NamedIndividual ,
-             :Editor ;
+             :Author ,
+             :Editor ,
+             :People ;
+    :edited :RLC07 ;
+    :isRefAuthorIn :RFFCBC08 ;
     :name "Luis Carriço" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#lcor
 :lcor rdf:type owl:NamedIndividual ,
-               :Author ;
+               :Author ,
+               :People ;
+      :authorOf :RFCFBC07 ;
+      :isRefAuthorIn :FCRBCF07 ,
+                     :RFCFBC06 ;
       :name "Luis Corujo" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#lf
 :lf rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :RFCFBC07 ;
+    :isRefAuthorIn :FCRBCF07 ,
+                   :RFCFBC06 ,
+                   :RFFC07-EML ,
+                   :RFFCBC08 ,
+                   :archiving2013 ,
+                   :bad2012 ,
+                   :bad2015b ,
+                   :cisti2017 ,
+                   :dlm2014 ,
+                   :iPRES2016 ,
+                   :icadl2012 ,
+                   :ipres2012 ,
+                   :ipres2013 ,
+                   :or2013 ;
     :name "Luis Faria" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#lmf
 :lmf rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :FRF-XATA ;
+     :isRefAuthorIn :FFR10 ,
+                    :RFFLS06 ,
+                    :SFRL07 ;
      :name "Luis Miguel Ferros" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#lutz
 :lutz rdf:type owl:NamedIndividual ,
-               :Editor ;
+               :Editor ,
+               :People ;
+      :edited :RLH06 ;
       :name "Lutz Maicher" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mam
 :mam rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :RQR10 ;
      :name "Miguel Ángel Marzal Garcia-Quismondo" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mcm
 :mcm rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :SMR03 ;
      :name "Maria da Conceição Vieira Mota" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mf
 :mf rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :FR04 ;
+    :isRefAuthorIn :BKRFBR08 ,
+                   :FBR05-CAPSI ,
+                   :FBR06-Ariadne ,
+                   :FBR06-XATA ,
+                   :FBR07 ,
+                   :FBR07-IJDL ,
+                   :FCRBCF07 ,
+                   :FFR10 ,
+                   :FR04-capsi ,
+                   :FR04b ,
+                   :FRF-XATA ,
+                   :RFCFBC06 ,
+                   :RFCFBC07 ,
+                   :RFFC07-EML ,
+                   :RFFCBC08 ,
+                   :RFFLS06 ,
+                   :archiving2013 ,
+                   :bad2012 ,
+                   :bad2015b ,
+                   :cisti2017 ,
+                   :iPRES2016 ,
+                   :icadl2012 ,
+                   :ipres2012 ,
+                   :ipres2013 ,
+                   :or2013 ;
     :name "Miguel Ferreira" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mhj
 :mhj rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :JLRH02 ;
+     :isRefAuthorIn :JHR00 ,
+                    :JLRH02b ,
+                    :JLRH03 ,
+                    :JLRHb02 ,
+                    :JLRHc02 ,
+                    :JRH03 ;
      :name "M. H. Jacinto" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#migaldo
 :migaldo rdf:type owl:NamedIndividual ,
-                  :Author ;
+                  :Author ,
+                  :People ;
+         :authorOf :RD06-XATA ;
          :name "Luis Miguel Alves Domingues" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mjc
 :mjc rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :RQR10 ;
      :name "Maria Jesus Colmenero Ruiz" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mjpl
 :mjpl rdf:type owl:NamedIndividual ,
-               :Author ;
+               :Author ,
+               :People ;
+      :authorOf :RFFLS06 ;
+      :isRefAuthorIn :SFRL07 ;
       :name "Maria João Pires Lima" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mk
 :mk rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :BKRFBR08 ;
     :name "Michael Kraxner" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mm
 :mm rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :LMMVRH08-XATA ;
     :name "Mirkos Martins" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mom
 :mom rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :LMMFRH07-TMRA ;
      :name "M. O. Martins" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mr
 :mr rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :ipres2013 ;
     :name "Marcel Ras" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#mrh
 :mrh rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :RHHRAF98 ;
      :name "M. R. Henriques" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#or2013
 :or2013 rdf:type owl:NamedIndividual ,
-                 :Inproceedings ;
+                 :Inproceedings ,
+                 :Pubs ;
         :hasAuthorRef :cb ,
                       :jcr ,
                       :kd ,
@@ -2221,91 +2696,198 @@
 
 ###  http://www.di.uminho.pt/prc2021/pubs#park
 :park rdf:type owl:NamedIndividual ,
-               :Editor ;
+               :Editor ,
+               :People ;
+      :edited :RLH06 ;
       :name "Jack Park" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#penteado
 :penteado rdf:type owl:NamedIndividual ,
-                   :Author ;
+                   :Author ,
+                   :People ;
+          :authorOf :edicic2015 ;
+          :isRefAuthorIn :bad2015a ;
           :name "Pedro Penteado" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#pgf
 :pgf rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :LMMFRH07-TMRA ;
      :name "P. G. D. Ferreira" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#pp
 :pp rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :ipres2012 ;
+    :isRefAuthorIn :icadl2012 ;
     :name "Petar Petrov" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#prh
 :prh rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :Editor ,
+              :People ;
+     :authorOf :RH2002 ;
+     :isRefAuthorIn :GARH09 ,
+                    :JHR00 ,
+                    :JLRH02 ,
+                    :JLRH02b ,
+                    :JLRH03 ,
+                    :JLRHb02 ,
+                    :JLRHc02 ,
+                    :JRH03 ,
+                    :LARH07-EPIA ,
+                    :LATRH07-CLEI ,
+                    :LGRH07-CLEI ,
+                    :LMMFRH07-TMRA ,
+                    :LMMVRH08-XATA ,
+                    :LPRH07-TM ,
+                    :LPRH07-XATA ,
+                    :LRH03 ,
+                    :LRH03b ,
+                    :LRH03c ,
+                    :LRH04 ,
+                    :LRH04-Clei ,
+                    :LRH04-WWS ,
+                    :LRH04-XMLw ,
+                    :LRH05 ,
+                    :LRH05-CLEI ,
+                    :LRH05b ,
+                    :LRH06-SBSI06 ,
+                    :LRH06-XATA ,
+                    :LRH07-SEMINFO ,
+                    :LRH97 ,
+                    :LRHGT08 ,
+                    :LSRH04 ,
+                    :MRH04 ,
+                    :RAH1998 ,
+                    :RAH95 ,
+                    :RAH96 ,
+                    :RARH98 ,
+                    :RH94 ,
+                    :RH98 ,
+                    :RH98b ,
+                    :RH98c ,
+                    :RH98d ,
+                    :RHHRAF98 ,
+                    :RHL04-eLes ,
+                    :RHb98 ,
+                    :RLH03 ,
+                    :RLH03b ,
+                    :RLH04 ,
+                    :RLH05 ,
+                    :RLH05-revAPSI17 ,
+                    :RLH05b ,
+                    :RLH06 ,
+                    :RLH07-EML ,
+                    :RLH2003 ,
+                    :RLH98 ,
+                    :RRAH97 ;
+     :isRefEditorIn :RHLA03 ;
      :name "Pedro Rangel Henriques" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#pt
 :pt rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :RTFR04 ;
     :name "Pedro Taveira" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#ram
 :ram rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :MRH04 ;
      :name "Ricardo Martins" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#rc
 :rc rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :RFCFBC07 ;
+    :isRefAuthorIn :FCRBCF07 ,
+                   :RFCFBC06 ,
+                   :RFFC07-EML ,
+                   :RFFCBC08 ;
     :name "Rui Castro" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#rct
 :rct rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :LATRH07-CLEI ;
+     :isRefAuthorIn :LRHGT08 ;
      :name "Rogério Correa Turchetti" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#rf
 :rf rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :FR09 ;
+    :isRefAuthorIn :FR10 ,
+                   :FR11 ,
+                   :FR11b ,
+                   :FR11c ,
+                   :FR11d ,
+                   :FR11e ,
+                   :IGI2013 ,
+                   :RTFR04 ;
     :name "Ricardo Freitas" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#rpa
 :rpa rdf:type owl:NamedIndividual ,
-              :Author ;
+              :Author ,
+              :People ;
+     :authorOf :LPRH07-XATA ;
+     :isRefAuthorIn :GARH09 ,
+                    :LARH07-EPIA ,
+                    :LATRH07-CLEI ,
+                    :LPRH07-TM ,
+                    :RLH07-EML ;
      :name "Renato Preigschadt de Azevedo" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#rq
 :rq rdf:type owl:NamedIndividual ,
-             :Editor ;
+             :Editor ,
+             :People ;
+    :edited :IGI2013 ;
     :name "Ricardo Queirós" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#sa
 :sa rdf:type owl:NamedIndividual ,
-             :Editor ;
+             :Editor ,
+             :People ;
+    :edited :RLA08 ;
     :name "Salvador Abreu" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#vr
 :vr rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :RTFR04 ;
     :name "Vasco Rocha" .
 
 
 ###  http://www.di.uminho.pt/prc2021/pubs#ws
 :ws rdf:type owl:NamedIndividual ,
-             :Author ;
+             :Author ,
+             :People ;
+    :authorOf :LSRH04 ;
     :name "Weber Souza" .
 
 
