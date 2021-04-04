@@ -123,6 +123,75 @@ router.get('/authors/:id', function(req, res, next) {
 })
 
 
+router.post('/pubs', function(req, res, next) {
+  var query = `INSERT DATA { ${req.body} }`
+  var encoded = encodeURIComponent(prefixes + query)
+
+  axios.post(postLink + encoded)
+    .then(dados => console.dir(dados))
+    .catch(erro => console.log(erro))
+})
+
+router.post('/authors', function(req, res, next) {
+  var query = `INSERT DATA { ${req.body} }`
+  var encoded = encodeURIComponent(prefixes + query)
+
+  axios.post(postLink + encoded)
+    .then(dados => console.dir(dados))
+    .catch(erro => console.log(erro))
+})
+
+router.delete('/pubs/:id', function(req, res, next) {
+  var query = `DELETE DATA { ${req.params.id} a :Pubs . }`
+  var encoded = encodeURIComponent(prefixes + query)
+
+  axios.post(postLink + encoded)
+    .then(dados => console.dir(dados))
+    .catch(erro => console.log(erro))
+})
+
+router.delete('/authors/:id', function(req, res, next) {
+  var query = `DELETE DATA { ${req.params.id} a :Author . }`
+  var encoded = encodeURIComponent(prefixes + query)
+
+  axios.post(postLink + encoded)
+    .then(dados => console.dir(dados))
+    .catch(erro => console.log(erro))
+})
+
+router.put('/pubs/:id', function(req, res, next) {
+  var query = `DELETE DATA { ${req.params.id} a :Pubs . }`
+  var encoded = encodeURIComponent(prefixes + query)
+
+  axios.post(postLink + encoded)
+    .then(dados =>{
+      var query = `INSERT DATA { ${req.body} }`
+      var encoded = encodeURIComponent(prefixes + query)
+
+      axios.post(postLink + encoded)
+        .then(dados => console.dir(dados))
+        .catch(erro => console.log(erro))
+      })
+    .catch(erro => console.log(erro))
+})
+
+router.put('/authors/:id', function(req, res, next) {
+  var query = `DELETE DATA { ${req.params.id} a :Author . }`
+  var encoded = encodeURIComponent(prefixes + query)
+
+  axios.post(postLink + encoded)
+  .then(dados =>{
+    var query = `INSERT DATA { ${req.body} }`
+    var encoded = encodeURIComponent(prefixes + query)
+
+    axios.post(postLink + encoded)
+      .then(dados => console.dir(dados))
+      .catch(erro => console.log(erro))
+    })
+  .catch(erro => console.log(erro))
+})
+
+
 
 
 module.exports = router;
