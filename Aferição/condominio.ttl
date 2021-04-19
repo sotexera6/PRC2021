@@ -1,0 +1,851 @@
+@prefix : <http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27> .
+
+<http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#livroConstituidoPor
+:livroConstituidoPor rdf:type owl:ObjectProperty ;
+                     owl:inverseOf :pertenceAoLivro ;
+                     rdfs:domain :LivroReceitas ;
+                     rdfs:range :Receita .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#mapaConstituidoPor
+:mapaConstituidoPor rdf:type owl:ObjectProperty ;
+                    owl:inverseOf :pertenceAoMapa ;
+                    rdfs:domain :MapaPagamentos ;
+                    rdfs:range :Pagamento .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#pagamentosDe
+:pagamentosDe rdf:type owl:ObjectProperty ;
+              owl:inverseOf :temPagamentos .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#pertenceAoLivro
+:pertenceAoLivro rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#pertenceAoMapa
+:pertenceAoMapa rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#proprietarioDe
+:proprietarioDe rdf:type owl:ObjectProperty ;
+                owl:inverseOf :temProprietario ;
+                rdfs:domain :Proprietario ;
+                rdfs:range :Fracao .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#receitaDe
+:receitaDe rdf:type owl:ObjectProperty ;
+           owl:inverseOf :temReceita ;
+           rdfs:domain :Receita .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#temPagamentos
+:temPagamentos rdf:type owl:ObjectProperty ;
+               rdfs:domain :Fracao ;
+               rdfs:range :Pagamento .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#temProprietario
+:temProprietario rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#temReceita
+:temReceita rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#abr
+:abr rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#ago
+:ago rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#ano
+:ano rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#data
+:data rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#descricao
+:descricao rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#dez
+:dez rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#email
+:email rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#fev
+:fev rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#jan
+:jan rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#jul
+:jul rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#jun
+:jun rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#mai
+:mai rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#mar
+:mar rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#mensalidade
+:mensalidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#nov
+:nov rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#out
+:out rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#permilagem
+:permilagem rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#set
+:set rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#telefone
+:telefone rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#tipo
+:tipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#valor
+:valor rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Condominio
+:Condominio rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Fornecedor
+:Fornecedor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Fracao
+:Fracao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#LivroReceitas
+:LivroReceitas rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#MapaPagamentos
+:MapaPagamentos rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pagamento
+:Pagamento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Proprietario
+:Proprietario rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Receita
+:Receita rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#CGD
+:CGD rdf:type owl:NamedIndividual ,
+              :Fornecedor .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#CMB
+:CMB rdf:type owl:NamedIndividual ,
+              :Fornecedor .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#EDP
+:EDP rdf:type owl:NamedIndividual ,
+              :Fornecedor .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac1Dto
+:Frac1Dto rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "F" ;
+          :mensalidade "36.45" ;
+          :permilagem "24" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac1Esq
+:Frac1Esq rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "G" ;
+          :mensalidade "51.63" ;
+          :permilagem "34" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac2Dto
+:Frac2Dto rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "H" ;
+          :mensalidade "36.45" ;
+          :permilagem "24" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac3Dto
+:Frac3Dto rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "I" ;
+          :mensalidade "36.45" ;
+          :permilagem "24" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac3Esq
+:Frac3Esq rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "J" ;
+          :mensalidade "51.63" ;
+          :permilagem "34" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac4Dto
+:Frac4Dto rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "L" ;
+          :mensalidade "36.45" ;
+          :permilagem "24" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac5Dto
+:Frac5Dto rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "M" ;
+          :mensalidade "36.45" ;
+          :permilagem "24" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac5Esq
+:Frac5Esq rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "N" ;
+          :mensalidade "51.63" ;
+          :permilagem "34" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac6Dto
+:Frac6Dto rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "O" ;
+          :mensalidade "36.45" ;
+          :permilagem "24" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac7Dto
+:Frac7Dto rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "P" ;
+          :mensalidade "36.45" ;
+          :permilagem "24" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac7Esq
+:Frac7Esq rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "Q" ;
+          :mensalidade "51.63" ;
+          :permilagem "34" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Frac8Dto
+:Frac8Dto rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "R" ;
+          :mensalidade "36.45" ;
+          :permilagem "24" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#FracLoja
+:FracLoja rdf:type owl:NamedIndividual ,
+                   :Fracao ;
+          :descricao "A" ;
+          :mensalidade "6.06" ;
+          :permilagem "50" .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Kone
+:Kone rdf:type owl:NamedIndividual ,
+               :Fornecedor .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Limpeza
+:Limpeza rdf:type owl:NamedIndividual ,
+                  :Fornecedor .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#LivroRec
+:LivroRec rdf:type owl:NamedIndividual ,
+                   :LivroReceitas ;
+          :ano 2020 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#MapaPag
+:MapaPag rdf:type owl:NamedIndividual ,
+                  :MapaPagamentos ;
+         :mapaConstituidoPor :Pag1 ;
+         :ano 2020 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag0
+:Pag0 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac1Dto ;
+      :pertenceAoMapa :MapaPag ;
+      :abr 1 ;
+      :fev 1 ;
+      :jan 1 ;
+      :mar 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag1
+:Pag1 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac2Dto ;
+      :pertenceAoMapa :MapaPag .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag10
+:Pag10 rdf:type owl:NamedIndividual ,
+                :Pagamento ;
+       :pagamentosDe :Frac5Esq ;
+       :pertenceAoMapa :MapaPag ;
+       :abr 1 ;
+       :fev 1 ;
+       :jan 1 ;
+       :mar 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag11
+:Pag11 rdf:type owl:NamedIndividual ,
+                :Pagamento ;
+       :pagamentosDe :Frac7Esq ;
+       :pertenceAoMapa :MapaPag ;
+       :abr 1 ;
+       :fev 1 ;
+       :jan 1 ;
+       :mar 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag12
+:Pag12 rdf:type owl:NamedIndividual ,
+                :Pagamento ;
+       :pagamentosDe :FracLoja ;
+       :pertenceAoMapa :MapaPag .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag2
+:Pag2 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac3Dto ;
+      :pertenceAoMapa :MapaPag ;
+      :abr 1 ;
+      :ago 1 ;
+      :dez 1 ;
+      :fev 1 ;
+      :jan 1 ;
+      :jul 1 ;
+      :jun 1 ;
+      :mai 1 ;
+      :mar 1 ;
+      :nov 1 ;
+      :out 1 ;
+      :set 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag3
+:Pag3 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac4Dto ;
+      :pertenceAoMapa :MapaPag ;
+      :abr 1 ;
+      :ago 1 ;
+      :dez 1 ;
+      :fev 1 ;
+      :jan 1 ;
+      :jul 1 ;
+      :jun 1 ;
+      :mai 1 ;
+      :mar 1 ;
+      :nov 1 ;
+      :out 1 ;
+      :set 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag4
+:Pag4 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac5Dto ;
+      :pertenceAoMapa :MapaPag ;
+      :abr 1 ;
+      :fev 1 ;
+      :jan 1 ;
+      :jun 1 ;
+      :mai 1 ;
+      :mar 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag5
+:Pag5 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac6Dto ;
+      :pertenceAoMapa :MapaPag ;
+      :abr 1 ;
+      :ago 1 ;
+      :fev 1 ;
+      :jan 1 ;
+      :jul 1 ;
+      :jun 1 ;
+      :mai 1 ;
+      :mar 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag6
+:Pag6 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac7Dto ;
+      :pertenceAoMapa :MapaPag ;
+      :abr 1 ;
+      :fev 1 ;
+      :jan 1 ;
+      :mar 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag7
+:Pag7 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac8Dto ;
+      :pertenceAoMapa :MapaPag .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag8
+:Pag8 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac1Esq ;
+      :pertenceAoMapa :MapaPag ;
+      :fev 1 ;
+      :jan 1 ;
+      :mar 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Pag9
+:Pag9 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pagamentosDe :Frac3Esq ;
+      :pertenceAoMapa :MapaPag ;
+      :fev 1 ;
+      :jan 1 ;
+      :mar 1 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#PluriRapel
+:PluriRapel rdf:type owl:NamedIndividual ,
+                     :Fornecedor .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec001
+:Rec001 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :CGD ;
+        :data "2020-01-04" ;
+        :descricao "Manutenção da conta" ;
+        :tipo "Despesa" ;
+        :valor 7.28 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec002
+:Rec002 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac7Esq ;
+        :data "2020-01-06" ;
+        :descricao "Janeiro" ;
+        :tipo "Receita" ;
+        :valor 64.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec003
+:Rec003 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac2Dto ;
+        :data "2020-01-06" ;
+        :descricao "Abril a Dezembro de 2019" ;
+        :tipo "Receita" ;
+        :valor 406.62 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec004
+:Rec004 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :EDP ;
+        :data "2020-01-08" ;
+        :descricao "Luz" ;
+        :tipo "Despesa" ;
+        :valor 222.65 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec005
+:Rec005 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac7Dto ;
+        :data "2020-01-16" ;
+        :descricao "Janeiro" ;
+        :tipo "Receita" ;
+        :valor 45.18 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec006
+:Rec006 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :CGD ;
+        :data "2020-02-01" ;
+        :descricao "Manutenção da conta" ;
+        :tipo "Despesa" ;
+        :valor 7.28 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec007
+:Rec007 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac5Esq ;
+        :data "2020-02-04" ;
+        :descricao "Fevereiro" ;
+        :tipo "Receita" ;
+        :valor 64.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec008
+:Rec008 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac7Esq ;
+        :data "2020-02-06" ;
+        :descricao "Fevereiro" ;
+        :tipo "Receita" ;
+        :valor 64.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec009
+:Rec009 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Kone ;
+        :data "2020-01-20" ;
+        :descricao "Manutenção dos elevadores: 1º trimestre" ;
+        :tipo "Despesa" ;
+        :valor 439.77 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec010
+:Rec010 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac1Esq ,
+                   :Frac3Esq ;
+        :data "2020-02-12" ;
+        :descricao "Janeiro" ;
+        :tipo "Receita" ;
+        :valor 384.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec011
+:Rec011 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac7Dto ;
+        :data "2020-02-20" ;
+        :descricao "Fevereiro" ;
+        :tipo "Receita" ;
+        :valor 45.18 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec012
+:Rec012 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Serralheiro ;
+        :data "2020-02-24" ;
+        :descricao "Concerto do trinco da porta" ;
+        :tipo "Despesa" ;
+        :valor 20.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec013
+:Rec013 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :CMB ;
+        :data "2020-02-24" ;
+        :descricao "Inspeção dos elevadores" ;
+        :tipo "Despesa" ;
+        :valor 174.30 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec014
+:Rec014 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac1Dto ;
+        :data "2020-02-24" ;
+        :descricao "Acertos: Janeiro" ;
+        :tipo "Receita" ;
+        :valor 194.30 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec015
+:Rec015 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac5Dto ;
+        :data "2020-03-11" ;
+        :descricao "Janeiro a Junho" ;
+        :tipo "Receita" ;
+        :valor 271.08 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec016
+:Rec016 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :PluriRapel ;
+        :data "2020-03-11" ;
+        :descricao "Reparação das fachadas" ;
+        :tipo "Despesa" ;
+        :valor 1655.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec017
+:Rec017 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac5Esq ;
+        :data "2020-02-26" ;
+        :descricao "Março" ;
+        :tipo "Receita" ;
+        :valor 64.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec018
+:Rec018 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac3Dto ;
+        :data "2020-02-29" ;
+        :descricao "Janeiro a Dezembro" ;
+        :tipo "Receita" ;
+        :valor 542.16 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec019
+:Rec019 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :EDP ;
+        :data "2020-03-04" ;
+        :descricao "Luz" ;
+        :tipo "Despesa" ;
+        :valor 236.59 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec020
+:Rec020 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac7Esq ;
+        :data "2020-03-06" ;
+        :descricao "Março" ;
+        :tipo "Receita" ;
+        :valor 64.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec021
+:Rec021 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :CGD ;
+        :data "2020-03-07" ;
+        :descricao "Manutenção da conta" ;
+        :tipo "Despesa" ;
+        :valor 7.28 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec022
+:Rec022 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac7Dto ;
+        :data "2020-03-15" ;
+        :descricao "Março" ;
+        :tipo "Receita" ;
+        :valor 45.18 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec023
+:Rec023 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac5Esq ;
+        :data "2020-03-30" ;
+        :descricao "Abril " ;
+        :tipo "Receita" ;
+        :valor 64.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec024
+:Rec024 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :CGD ;
+        :data "2020-04-04" ;
+        :descricao "Manutenção da conta" ;
+        :tipo "Despesa" ;
+        :valor 7.28 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec025
+:Rec025 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac7Esq ;
+        :data "2020-04-06" ;
+        :descricao "Abril" ;
+        :tipo "Receita" ;
+        :valor 64.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec026
+:Rec026 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac6Dto ;
+        :data "2020-04-07" ;
+        :descricao "Abril a Agosto" ;
+        :tipo "Receita" ;
+        :valor 225.90 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec027
+:Rec027 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac7Dto ;
+        :data "2020-04-14" ;
+        :descricao "Abril" ;
+        :tipo "Receita" ;
+        :valor 45.18 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec028
+:Rec028 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Vizinhos ;
+        :data "2020-04-15" ;
+        :descricao "Luz Comum" ;
+        :tipo "Despesa" ;
+        :valor 207.98 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec029
+:Rec029 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Limpeza ;
+        :data "2020-04-15" ;
+        :descricao "Limpeza 2020" ;
+        :tipo "Despesa" ;
+        :valor 1080.00 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec030
+:Rec030 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Frac4Dto ;
+        :data "2020-04-15" ;
+        :descricao "Janeiro a Dezembro" ;
+        :tipo "Receita" ;
+        :valor 542.16 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Rec031
+:Rec031 rdf:type owl:NamedIndividual ,
+                 :Receita ;
+        :pertenceAoLivro :LivroRec ;
+        :receitaDe :Kone ;
+        :data "2020-04-01" ;
+        :descricao "Manutenção dos elevadores: 2º trimestre" ;
+        :tipo "Despesa" ;
+        :valor 439.77 .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Serralheiro
+:Serralheiro rdf:type owl:NamedIndividual ,
+                      :Fornecedor .
+
+
+###  http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#Vizinhos
+:Vizinhos rdf:type owl:NamedIndividual ,
+                   :Fornecedor .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

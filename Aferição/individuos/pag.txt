@@ -1,0 +1,125 @@
+:Pag0 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac1Dto ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+:abr 1 ;
+ . 
+:Pag1 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac2Dto ;
+ . 
+:Pag2 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac3Dto ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+:abr 1 ;
+:mai 1 ;
+:jun 1 ;
+:jul 1 ;
+:ago 1 ;
+:set 1 ;
+:out 1 ;
+:nov 1 ;
+:dez 1 ;
+ . 
+:Pag3 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac4Dto ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+:abr 1 ;
+:mai 1 ;
+:jun 1 ;
+:jul 1 ;
+:ago 1 ;
+:set 1 ;
+:out 1 ;
+:nov 1 ;
+:dez 1 ;
+ . 
+:Pag4 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac5Dto ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+:abr 1 ;
+:mai 1 ;
+:jun 1 ;
+ . 
+:Pag5 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac6Dto ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+:abr 1 ;
+:mai 1 ;
+:jun 1 ;
+:jul 1 ;
+:ago 1 ;
+ . 
+:Pag6 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac7Dto ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+:abr 1 ;
+ . 
+:Pag7 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac8Dto ;
+ . 
+:Pag8 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac1Esq ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+ . 
+:Pag9 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac3Esq ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+ . 
+:Pag10 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac5Esq ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+:abr 1 ;
+ . 
+:Pag11 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :Frac7Esq ;
+:jan 1 ;
+:fev 1 ;
+:mar 1 ;
+:abr 1 ;
+ . 
+:Pag12 rdf:type owl:NamedIndividual ,
+               :Pagamento ;
+      :pertenceAoMapa :MapaPag ;
+      :pagamentosDe :FracLoja ;
+ . 

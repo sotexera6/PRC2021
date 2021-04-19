@@ -1,0 +1,65 @@
+:FracLoja rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "A" ;
+                :permilagem "50" ;
+                :mensalidade "6.06" .
+:Frac1Dto rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "F" ;
+                :permilagem "24" ;
+                :mensalidade "36.45" .
+:Frac1Esq rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "G" ;
+                :permilagem "34" ;
+                :mensalidade "51.63" .
+:Frac2Dto rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "H" ;
+                :permilagem "24" ;
+                :mensalidade "36.45" .
+:Frac3Dto rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "I" ;
+                :permilagem "24" ;
+                :mensalidade "36.45" .
+:Frac3Esq rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "J" ;
+                :permilagem "34" ;
+                :mensalidade "51.63" .
+:Frac4Dto rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "L" ;
+                :permilagem "24" ;
+                :mensalidade "36.45" .
+:Frac5Dto rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "M" ;
+                :permilagem "24" ;
+                :mensalidade "36.45" .
+:Frac5Esq rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "N" ;
+                :permilagem "34" ;
+                :mensalidade "51.63" .
+:Frac6Dto rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "O" ;
+                :permilagem "24" ;
+                :mensalidade "36.45" .
+:Frac7Dto rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "P" ;
+                :permilagem "24" ;
+                :mensalidade "36.45" .
+:Frac7Esq rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "Q" ;
+                :permilagem "34" ;
+                :mensalidade "51.63" .
+:Frac8Dto rdf:type owl:NamedIndividual ,
+                        :Fracao ;
+                :descricao "R" ;
+                :permilagem "24" ;
+                :mensalidade "36.45" .

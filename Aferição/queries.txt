@@ -1,0 +1,44 @@
+1.
+PREFIX : <http://www.semanticweb.org/sotex/ontologies/2021/3/untitled-ontology-27#>
+
+select distinct ?f where { 
+	?r a :Receita. 
+    ?r :receitaDe ?f .
+}
+
+2.
+select ?f where { 
+	?f a :Fracao . 
+    ?f :temPagamentos ?p .
+    FILTER NOT EXISTS {?p :abr ?a}
+}
+
+
+3.
+select ?e (SUM(?v) as ?total) where { 
+	?r :receitaDe ?e .
+    ?r :tipo ?t .
+    FILTER (?t = "Despesa" ) .
+    ?r :valor ?v .
+}
+GROUP BY ?e
+
+4.
+select ?mapa (SUM(?m) as ?total) where { 
+    ?mapa :mapaConstituidoPor ?p .
+    ?f :mensalidade ?m .
+    ?f :temPagamentos ?p.
+    ?p ?o ?s .
+    FILTER (?o IN (:jan, :fev, :mar, :abr, :mai, :jun, :jul, :ago, :set, :out, :nov, :dez))
+}
+GROUP BY ?mapa
+
+5.
+select ?f (SUM(?m) as ?total) where { 
+	?f a :Fracao .
+    ?f :mensalidade ?m .
+    ?f :temPagamentos ?p.
+    ?p ?o ?s .
+    FILTER (?o IN (:jan, :fev, :mar, :abr, :mai, :jun, :jul, :ago, :set, :out, :nov, :dez))
+}
+GROUP BY ?f

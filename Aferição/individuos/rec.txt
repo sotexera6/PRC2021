@@ -1,0 +1,275 @@
+:Rec001 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :CGD ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-01-04" ;
+                :valor "7.28" ;
+                :descricao "Manutenção da conta" ;
+                :tipo "Despesa" .
+:CGD rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec002 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :7Esq ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-01-06" ;
+                :valor "64.00" ;
+                :descricao "Janeiro" ;
+                :tipo "Receita" .
+:Rec003 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :Frac2Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-01-06" ;
+                :valor "406.62" ;
+                :descricao "Abril a Dezembro de 2019" ;
+                :tipo "Receita" .
+:Rec004 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :EDP ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-01-08" ;
+                :valor "222.65" ;
+                :descricao "Luz" ;
+                :tipo "Despesa" .
+:EDP rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec005 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :7Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-01-16" ;
+                :valor "45.18" ;
+                :descricao "Janeiro" ;
+                :tipo "Receita" .
+:Rec006 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :CGD ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-01" ;
+                :valor "7.28" ;
+                :descricao "Manutenção da conta" ;
+                :tipo "Despesa" .
+:CGD rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec007 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :5Esq ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-04" ;
+                :valor "64.00" ;
+                :descricao "Fevereiro" ;
+                :tipo "Receita" .
+:Rec008 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :7Esq ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-06" ;
+                :valor "64.00" ;
+                :descricao "Fevereiro" ;
+                :tipo "Receita" .
+:Rec009 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :Kone ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-01-20" ;
+                :valor "439.77" ;
+                :descricao "Manutenção dos elevadores: 1º trimestre" ;
+                :tipo "Despesa" .
+:Kone rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec010 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :Frac1Esq ;
+                :receitaDe :3Esq ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-12" ;
+                :valor "384.00" ;
+                :descricao ""Janeiro" ;
+                :tipo "Receita" .
+:Rec011 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :7Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-20" ;
+                :valor "45.18" ;
+                :descricao "Fevereiro" ;
+                :tipo "Receita" .
+:Rec012 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :Serralheiro ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-24" ;
+                :valor "20.00" ;
+                :descricao "Concerto do trinco da porta" ;
+                :tipo "Despesa" .
+:Serralheiro rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec013 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :CMB ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-24" ;
+                :valor "174.30" ;
+                :descricao "Inspeção dos elevadores" ;
+                :tipo "Despesa" .
+:CMB rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec014 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :Frac1Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-24" ;
+                :valor "194.30" ;
+                :descricao ""Acertos: Janeiro" ;
+                :tipo "Receita" .
+:Rec015 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :5Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-03-11" ;
+                :valor "271.08" ;
+                :descricao "Janeiro a Junho" ;
+                :tipo "Receita" .
+:Rec016 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :PluriRapel ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-03-11" ;
+                :valor "1655.00" ;
+                :descricao "Reparação das fachadas" ;
+                :tipo "Despesa" .
+:PluriRapel rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec017 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :5Esq ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-26" ;
+                :valor "64.00" ;
+                :descricao "Março" ;
+                :tipo "Receita" .
+:Rec018 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :3Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-02-29" ;
+                :valor "542.16" ;
+                :descricao "Janeiro a Dezembro" ;
+                :tipo "Receita" .
+:Rec019 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :EDP ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-03-04" ;
+                :valor "236.59" ;
+                :descricao "Luz" ;
+                :tipo "Despesa" .
+:EDP rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec020 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :7Esq ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-03-06" ;
+                :valor "64.00" ;
+                :descricao "Março" ;
+                :tipo "Receita" .
+:Rec021 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :CGD ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-03-07" ;
+                :valor "7.28" ;
+                :descricao "Manutenção da conta" ;
+                :tipo "Despesa" .
+:CGD rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec022 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :7Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-03-15" ;
+                :valor "45.18" ;
+                :descricao "Março" ;
+                :tipo "Receita" .
+:Rec023 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :5Esq ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-03-30" ;
+                :valor "64.00" ;
+                :descricao "Abril " ;
+                :tipo "Receita" .
+:Rec024 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :CGD ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-04-04" ;
+                :valor "7.28" ;
+                :descricao "Manutenção da conta" ;
+                :tipo "Despesa" .
+:CGD rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec025 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :7Esq ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-04-06" ;
+                :valor "64.00" ;
+                :descricao "Abril" ;
+                :tipo "Receita" .
+:Rec026 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :6Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-04-07" ;
+                :valor "225.90" ;
+                :descricao "Abril a Agosto" ;
+                :tipo "Receita" .
+:Rec027 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :7Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-04-14" ;
+                :valor "45.18" ;
+                :descricao "Abril" ;
+                :tipo "Receita" .
+:Rec028 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :Vizinhos ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-04-15" ;
+                :valor "207.98" ;
+                :descricao "Luz Comum" ;
+                :tipo "Despesa" .
+:Vizinhos rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec029 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :Limpeza ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-04-15" ;
+                :valor "1080.00" ;
+                :descricao "Limpeza 2020" ;
+                :tipo "Despesa" .
+:Limpeza rdf:type owl:NamedIndividual ,
+                :Fornecedor .
+:Rec030 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :4Dto ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-04-15" ;
+                :valor "542.16" ;
+                :descricao "Janeiro a Dezembro" ;
+                :tipo "Receita" .
+:Rec031 rdf:type owl:NamedIndividual ,
+                        :Receita ;
+                :receitaDe :Kone ;
+                :pertenceAoLivro :LivroRec ;
+                :data "2020-04-01" ;
+                :valor "439.77" ;
+                :descricao "Manutenção dos elevadores: 2º trimestre" ;
+                :tipo "Despesa" .
+:Kone rdf:type owl:NamedIndividual ,
+                :Fornecedor .
