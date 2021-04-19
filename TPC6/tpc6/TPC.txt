@@ -1,0 +1,10 @@
+Fazer uma App em Vue para consumir a API de dados do TPC5
+
+
+Requisitos:
+
+1. Listagem de publicações: id, tipo, titulo, ano de publicação
+2. Ao clicar numa publicação, vai para a Consulta da Publicação: mostram toda a informação
+3. Listagem de autores: id, nome, nr de publicações
+*4. Ao clicar no nr de publicações, mostra a lista de publicações (igual ao ponto 1.) desse autor
+

@@ -102,7 +102,7 @@ router.get('/authors/:id', function(req, res, next) {
     }
     GROUP BY ?name`
   var encoded = encodeURIComponent(prefixes + query)
-
+  
   axios.get(selectLink + encoded)
     .then(dados => {
       final = dados.data.results.bindings.map(d =>{
@@ -117,7 +117,7 @@ router.get('/authors/:id', function(req, res, next) {
             })
         })
       })
-      console.dir(final)
+      res.send(final)
     })
     .catch(erro => console.log(erro))
 })
