@@ -1,0 +1,56 @@
+PREFIX : <http://www.di.uminho.pt/PRC2021/emd#>
+
+1.
+SELECT (COUNT(?a) as ?nr) WHERE {
+    ?a a :EMD .
+}
+
+
+2.
+SELECT (COUNT(?a) as ?nr) WHERE {
+    ?a a :EMD .
+    ?a :resultado true .
+}
+
+
+3.
+SELECT (COUNT(?g) as ?nr) WHERE {
+    ?e a :EMD .
+    ?a :realizouEMD ?e .
+    ?a :genero ?g .
+}
+GROUP BY (?g)
+
+
+4.
+SELECT (COUNT(?e) as ?nr) WHERE {
+    ?e a :EMD .
+    ?e :relativoAmodalidade ?m .
+}
+GROUP BY (?m)
+..ou..
+SELECT (COUNT(?e) as ?nr) WHERE {
+    ?e a :EMD .
+    ?a :realizouEMD ?e .
+    ?a :praticaModalidade ?m .
+}
+GROUP BY (?m)
+
+
+5.
+SELECT (COUNT(?a) as ?nr) WHERE {
+    ?e a :EMD .
+    ?a :realizouEMD ?e .
+    ?a :pertenceAoClube :GDGoma .
+}
+
+
+6.
+SELECT (COUNT(?a) as ?nr) WHERE {
+    ?e a :EMD .
+    ?a :realizouEMD ?e .
+    ?a :genero "F" .
+    ?a :praticaModalidade :Triatlo .
+}
+
+

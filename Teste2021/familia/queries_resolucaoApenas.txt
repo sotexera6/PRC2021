@@ -1,0 +1,66 @@
+PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+1.
+CONSTRUCT {
+    ?a :temIrmao ?b .
+}
+WHERE {
+    ?a :temProgenitor ?p1 .
+    ?b :temProgenitor ?p1 .
+    FILTER (?a != ?b)
+}
+
+
+2.
+CONSTRUCT {
+    ?n :temBisavo ?b .
+}
+WHERE {
+    ?n :temProgenitor ?p .
+    ?p :temProgenitor ?a .
+    ?a :temProgenitor ?b .
+}
+
+
+3.
+CONSTRUCT {
+    ?a :temDescendente ?b .
+}
+WHERE {
+    ?b :temProgenitor+ ?a .
+}
+
+
+4.
+CONSTRUCT {
+    ?a1 :temPrimo ?a2 .
+}
+WHERE {
+    ?a1 :temProgenitor ?p1 .
+    ?p1 :temProgenitor ?a .
+    ?p2 :temProgenitor ?a .
+    ?a2 :temProgenitor ?p2 .
+    FILTER(?p1 != ?p2)
+}
+
+
+5.
+CONSTRUCT {
+    ?m :sexo "F" .
+    ?p :sexo "M" .
+}
+WHERE {
+    ?x :temMae ?m .
+    ?y :temPai ?p .
+}
+
+
+6.
+CONSTRUCT {
+    :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom ?i .
+    :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom ?p .
+}
+WHERE {
+    ?i :temProgenitor+ ?p .
+    :José_Carlos_Leite_Ramalho_1967 :temProgenitor+ ?p .
+}
